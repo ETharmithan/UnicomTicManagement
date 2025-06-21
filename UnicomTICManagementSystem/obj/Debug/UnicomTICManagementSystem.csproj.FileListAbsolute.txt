@@ -1,0 +1,436 @@
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+Z:\C#\Project\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+C:\Users\UT010423\Desktop\UnicomTICManagementSystem - 1\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentRegisterForm1.resources
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentRegisterForm1.resources
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+Z:\C#\Project\UnicomTICManagementSystem - 3\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserSigninForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentRegisterForm1.resources
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserSigninForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+Z:\C#\Project\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe.config
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserSigninForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+D:\Tharmi\UnicomTICManagementSystem - 4\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.CourseRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentRegisterForm1.resources
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.SubjectRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserSigninForm.resources
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+Z:\C#\Project\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe.config
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.CourseRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.Exam.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.MarkRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.RoomRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.Subject.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.SubjectRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserSigninForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewExam.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewMarks.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewSubjects.resources
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+D:\Tharmi\UnicomTICManagementSystem - 5\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.CourseRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.Exam.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.MarkRegister.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.RoomRegister.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentRegisterForm1.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.Subject.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.SubjectRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserSigninForm.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewExam.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewMarks.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewSubjects.resources
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+Z:\C#\Project\UnicomTICManagementSystem -6\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe.config
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.CourseRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.Exam.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.MarkRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.RoomRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.Subject.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.SubjectRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserSigninForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewExam.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewMarks.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewSubjects.resources
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+D:\Tharmi\UnicomTICManagementSystem - 7\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe.config
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.CourseRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DepartmentRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.Exam.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.MarkRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.RoomRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.Subject.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.SubjectRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserSigninForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewExam.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewMarks.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewSubjects.resources
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+D:\Tharmi\UnicomTICManagementSystem - 8\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe.config
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.CourseRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DepartmentRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.Exam.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.MarkRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.RoomRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserSigninForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewExam.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewMarks.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewSubjects.resources
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+D:\Tharmi\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.cs_lecturer.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe.config
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.CourseRegisterForm.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DepartmentRegister.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.Exam.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.MarkRegister.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.RoomRegister.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentRegisterForm1.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.cs_lecturer.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserSigninForm.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewExam.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewMarks.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewSubjects.resources
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+F:\Project\UnicomTICManagementSystem - 9\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe.config
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.CourseRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DepartmentRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.Exam.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.MarkRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.RoomRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.cs_lecturer.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserSigninForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewExam.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewMarks.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewSubjects.resources
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+D:\Tharmi\UnicomTICManagementSystem - 10\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe.config
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.AdminRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.CourseRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashBoardForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DepartmentRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.Exam.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.LecturerRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.MarkRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.RoomRegister.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StaffRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentRegisterForm1.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.cs_lecturer.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UserSigninForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewExam.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewMarks.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewSubjects.resources
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+D:\Tharmi\UnicomTICManagementSystem - 11\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb

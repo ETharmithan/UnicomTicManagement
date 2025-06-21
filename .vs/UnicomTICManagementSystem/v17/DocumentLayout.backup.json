@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|d:\\tharmi\\unicomticmanagementsystem - 11\\unicomticmanagementsystem\\view\\lecturerregisterform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\lecturerregisterform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|d:\\tharmi\\unicomticmanagementsystem - 11\\unicomticmanagementsystem\\view\\lecturerregisterform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\lecturerregisterform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|d:\\tharmi\\unicomticmanagementsystem - 11\\unicomticmanagementsystem\\controllers\\lecturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\controllers\\lecturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|d:\\tharmi\\unicomticmanagementsystem - 11\\unicomticmanagementsystem\\models\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\models\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|d:\\tharmi\\unicomticmanagementsystem - 11\\unicomticmanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|d:\\tharmi\\unicomticmanagementsystem - 11\\unicomticmanagementsystem\\repositories\\migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\repositories\\migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|d:\\tharmi\\unicomticmanagementsystem - 11\\unicomticmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08D79BD9-3A93-4B8A-BA69-B486B4DDF421}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Migration.cs",
+              "DocumentMoniker": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\Repositories\\Migration.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Repositories\\Migration.cs",
+              "ToolTip": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\Repositories\\Migration.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Repositories\\Migration.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAQwH4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T20:26:03.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAcwIEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T20:03:09.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lecture.cs",
+              "DocumentMoniker": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\Models\\Lecture.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Models\\Lecture.cs",
+              "ToolTip": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\Models\\Lecture.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Models\\Lecture.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:48:55.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LectureController.cs",
+              "DocumentMoniker": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\Controllers\\LectureController.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Controllers\\LectureController.cs",
+              "ToolTip": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\Controllers\\LectureController.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Controllers\\LectureController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAgwJwAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T19:57:53.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LecturerRegisterForm1.cs",
+              "DocumentMoniker": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\View\\LecturerRegisterForm1.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\LecturerRegisterForm1.cs",
+              "ToolTip": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\View\\LecturerRegisterForm1.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\LecturerRegisterForm1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:40:09.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LecturerRegisterForm1.cs [Design]",
+              "DocumentMoniker": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\View\\LecturerRegisterForm1.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\LecturerRegisterForm1.cs",
+              "ToolTip": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\View\\LecturerRegisterForm1.cs [Design]",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\LecturerRegisterForm1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:12:55.451Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Program.cs",
+              "ToolTip": "D:\\Tharmi\\UnicomTICManagementSystem - 11\\UnicomTICManagementSystem\\Program.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:12:32.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
