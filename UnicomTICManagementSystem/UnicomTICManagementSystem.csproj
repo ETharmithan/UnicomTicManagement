@@ -128,11 +128,11 @@
     <Compile Include="View\DepartmentRegister.Designer.cs">
       <DependentUpon>DepartmentRegister.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\Exam.cs">
+    <Compile Include="View\ExamRegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Exam.Designer.cs">
-      <DependentUpon>Exam.cs</DependentUpon>
+    <Compile Include="View\ExamRegisterForm.Designer.cs">
+      <DependentUpon>ExamRegisterForm.cs</DependentUpon>
     </Compile>
     <Compile Include="View\LecturerRegisterForm1.cs">
       <SubType>Form</SubType>
@@ -221,8 +221,8 @@
     <EmbeddedResource Include="View\DepartmentRegister.resx">
       <DependentUpon>DepartmentRegister.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\Exam.resx">
-      <DependentUpon>Exam.cs</DependentUpon>
+    <EmbeddedResource Include="View\ExamRegisterForm.resx">
+      <DependentUpon>ExamRegisterForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\LecturerRegisterForm1.resx">
       <DependentUpon>LecturerRegisterForm1.cs</DependentUpon>

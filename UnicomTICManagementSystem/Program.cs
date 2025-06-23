@@ -19,13 +19,16 @@ namespace UnicomTICManagementSystem
             Migration.CreateTable();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LecturerRegisterForm1());
             //Application.Run(new AdminRegisterForm());
             //Application.Run(new StaffRegisterForm());
             //Application.Run(new DepartmentRegister());
             //Application.Run(new CourseRegisterForm());
             //Application.Run(new cs_lecturer());
             //Application.Run(new StudentRegisterForm1());
+            //Application.Run(new LecturerRegisterForm1());
+            //Application.Run(new UserSigninForm());
+            //Application.Run(new RoomRegister());
+            Application.Run(new ExamRegisterForm());
         }
     }
 }

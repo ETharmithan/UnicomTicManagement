@@ -43,7 +43,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(656, 11);
+            this.label1.Location = new System.Drawing.Point(669, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(180, 53);
@@ -76,7 +76,7 @@
             // 
             this.tlo_username.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tlo_username.Location = new System.Drawing.Point(665, 153);
-            this.tlo_username.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tlo_username.Margin = new System.Windows.Forms.Padding(4);
             this.tlo_username.Name = "tlo_username";
             this.tlo_username.Size = new System.Drawing.Size(355, 28);
             this.tlo_username.TabIndex = 3;
@@ -85,7 +85,7 @@
             // 
             this.tlo_password.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tlo_password.Location = new System.Drawing.Point(665, 207);
-            this.tlo_password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tlo_password.Margin = new System.Windows.Forms.Padding(4);
             this.tlo_password.Name = "tlo_password";
             this.tlo_password.Size = new System.Drawing.Size(355, 28);
             this.tlo_password.TabIndex = 4;
@@ -94,29 +94,31 @@
             // 
             this.blo_login.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.blo_login.Location = new System.Drawing.Point(921, 346);
-            this.blo_login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.blo_login.Margin = new System.Windows.Forms.Padding(4);
             this.blo_login.Name = "blo_login";
             this.blo_login.Size = new System.Drawing.Size(100, 36);
             this.blo_login.TabIndex = 5;
             this.blo_login.Text = "Login";
             this.blo_login.UseVisualStyleBackColor = true;
+            this.blo_login.Click += new System.EventHandler(this.blo_login_Click);
             // 
             // blo_back
             // 
             this.blo_back.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.blo_back.Location = new System.Drawing.Point(647, 346);
-            this.blo_back.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.blo_back.Margin = new System.Windows.Forms.Padding(4);
             this.blo_back.Name = "blo_back";
             this.blo_back.Size = new System.Drawing.Size(100, 36);
             this.blo_back.TabIndex = 6;
-            this.blo_back.Text = "Back";
+            this.blo_back.Text = "Close";
             this.blo_back.UseVisualStyleBackColor = true;
+            this.blo_back.Click += new System.EventHandler(this.blo_back_Click);
             // 
             // blo_forgot
             // 
             this.blo_forgot.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.blo_forgot.Location = new System.Drawing.Point(839, 256);
-            this.blo_forgot.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.blo_forgot.Margin = new System.Windows.Forms.Padding(4);
             this.blo_forgot.Name = "blo_forgot";
             this.blo_forgot.Size = new System.Drawing.Size(183, 36);
             this.blo_forgot.TabIndex = 8;
@@ -141,7 +143,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UserSigninForm";
             this.Text = "UserSignupForm";
             this.ResumeLayout(false);

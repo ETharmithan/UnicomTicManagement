@@ -54,6 +54,7 @@ namespace UnicomTICManagementSystem.Controllers
                 !string.IsNullOrWhiteSpace(admin.Gender))
                     
             {
+                //View UserRegisterForm
                 UserRegisterForm userRegister = new UserRegisterForm();
                 userRegister.ShowDialog();
                 if (userRegister.Id > 0) 

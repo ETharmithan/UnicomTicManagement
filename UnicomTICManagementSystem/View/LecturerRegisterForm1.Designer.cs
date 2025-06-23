@@ -382,6 +382,7 @@
             this.rl_male.TabStop = true;
             this.rl_male.Text = "Male";
             this.rl_male.UseVisualStyleBackColor = true;
+            this.rl_male.CheckedChanged += new System.EventHandler(this.rl_male_CheckedChanged);
             // 
             // rl_female
             // 
@@ -395,6 +396,7 @@
             this.rl_female.TabStop = true;
             this.rl_female.Text = "Female";
             this.rl_female.UseVisualStyleBackColor = true;
+            this.rl_female.CheckedChanged += new System.EventHandler(this.rl_female_CheckedChanged);
             // 
             // cl_maritialstatus
             // 
@@ -661,6 +663,7 @@
             this.cl_Subject.Name = "cl_Subject";
             this.cl_Subject.Size = new System.Drawing.Size(349, 27);
             this.cl_Subject.TabIndex = 59;
+            this.cl_Subject.SelectedIndexChanged += new System.EventHandler(this.cl_Subject_SelectedIndexChanged);
             // 
             // cl_department
             // 
@@ -670,6 +673,7 @@
             this.cl_department.Name = "cl_department";
             this.cl_department.Size = new System.Drawing.Size(349, 27);
             this.cl_department.TabIndex = 58;
+            this.cl_department.SelectedIndexChanged += new System.EventHandler(this.cl_department_SelectedIndexChanged);
             // 
             // ll_Subject
             // 

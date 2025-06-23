@@ -59,7 +59,6 @@ namespace UnicomTICManagementSystem.Controllers
         public List<Department> GetAllDepartments()
         {
             List<Department> departments = new List<Department>();
-
             using (var conn = DatabaseManager.DatabaseConnect())
             {
                 SQLiteCommand comand = conn.CreateCommand();
@@ -72,13 +71,9 @@ namespace UnicomTICManagementSystem.Controllers
                         ID = Convert.ToInt32(reading[0]),
                         Name = reading[1].ToString()
                     });
-                   
                 }
             }
-
             return departments;
         }
-
-
     }
 }

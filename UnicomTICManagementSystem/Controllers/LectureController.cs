@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using UnicomTICManagementSystem.Models;
 using UnicomTICManagementSystem.Repositories;
+using UnicomTICManagementSystem.View;
 
 namespace UnicomTICManagementSystem.Controllers
 {
@@ -57,7 +58,7 @@ namespace UnicomTICManagementSystem.Controllers
         //DateOfBirth Checked Validation
         public bool CheckDateofBirth(Lecture lecture)
         {
-            if (!string.IsNullOrWhiteSpace(lecture.DateOfBirth)) { return true; }
+            if (!string.IsNullOrWhiteSpace(lecture.DateOfBirth.ToString("yyyy-MM-dd"))) { return true; }
             else { return false; }
         }
         //Gender Checked Validation
@@ -106,7 +107,7 @@ namespace UnicomTICManagementSystem.Controllers
         {
             if (!string.IsNullOrWhiteSpace(lecture.FirstName) &&
                 !string.IsNullOrWhiteSpace(lecture.LastName) &&
-                !string.IsNullOrWhiteSpace(lecture.DateOfBirth) &&
+                !string.IsNullOrWhiteSpace(lecture.DateOfBirth.ToString("yyyy-MM-dd")) &&
                 !string.IsNullOrWhiteSpace(lecture.Gender) &&
                 !string.IsNullOrWhiteSpace(lecture.Nationality) &&
                 !string.IsNullOrWhiteSpace(lecture.NICno) &&
@@ -120,54 +121,73 @@ namespace UnicomTICManagementSystem.Controllers
                 !string.IsNullOrWhiteSpace(lecture.Salary) &&
                 !string.IsNullOrWhiteSpace(lecture.Qualification))
             {
-                //Database Connect
-                using(SQLiteConnection connect = DatabaseManager.DatabaseConnect())
+                //View UserRegisterForm
+                UserRegisterForm userRegisterForm = new UserRegisterForm();
+                userRegisterForm.ShowDialog();
+                if (userRegisterForm.Id > 0)
                 {
-                    string lecturerQuery = @"INSERT INTO Lecturers (
+                    //Database Connect
+                    using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
+                    {
+                        string lecturerQuery = @"INSERT INTO Lecturers (
                                             FirstName, LastName, DateOfBirth, Gender, Nationality, NICno,
-                                            Gmail, PhoneNumber, Address, MaritalStatus, RelationName,
-                                            Relationship, Relationnumber, Salary, Qualification,
-                                            SubjectsID, UsersID, DepartmentsID, StudentsID) 
+                                            Gmail, PhoneNumber, Address, MaritalStatus, RelationName,Relationship,
+                                            Relationnumber, Salary, Qualification,UsersID, DepartmentsID) 
                                             VALUES (@firstName, @lastName, @dateOfBirth, @gender, @nationality, @nicno,
-                                            @gmail, @phoneNumber, @address, @maritalStatus, @relationName,
-                                            @relationship, @relationNumber, @salary, @qualification,
-                                            @subjectsID, @usersID, @departmentsID, @studentsID)";
-                    try
-                    {
-                        using(SQLiteCommand command = new SQLiteCommand(lecturerQuery, connect))
+                                            @gmail, @phoneNumber, @address, @maritalStatus, @relationName,@relationship, 
+                                            @relationNumber, @salary, @qualification, @usersID, @departmentsID)";
+                        try
                         {
-                            command.Parameters.AddWithValue("@firstName", lecture.FirstName);
-                            command.Parameters.AddWithValue("@lastName", lecture.LastName);
-                            command.Parameters.AddWithValue("@dateOfBirth", lecture.DateOfBirth);
-                            command.Parameters.AddWithValue("@gender", lecture.Gender);
-                            command.Parameters.AddWithValue("@nationality", lecture.Nationality);
-                            command.Parameters.AddWithValue("@nicno", lecture.NICno);
-                            command.Parameters.AddWithValue("@gmail", lecture.Gmail);
-                            command.Parameters.AddWithValue("@phoneNumber", lecture.PhoneNumber);
-                            command.Parameters.AddWithValue("@address", lecture.Address);
-                            command.Parameters.AddWithValue("@maritalStatus", lecture.MaritalStatus);
-                            command.Parameters.AddWithValue("@relationName", lecture.RelationName);
-                            command.Parameters.AddWithValue("@relationship", lecture.Relationship);
-                            command.Parameters.AddWithValue("@relationNumber", lecture.Relationnumber);
-                            command.Parameters.AddWithValue("@salary", lecture.Salary);
-                            command.Parameters.AddWithValue("@qualification", lecture.Qualification);
-                            command.Parameters.AddWithValue("@subjectsID", lecture.SubjectsID);
-                            command.Parameters.AddWithValue("@usersID", lecture.UsersID);
-                            command.Parameters.AddWithValue("@departmentsID", lecture.DepartmentsID);
-                            command.Parameters.AddWithValue("@studentsID", lecture.StudentsID);
-                            command.ExecuteNonQuery();
-                            MessageBox.Show($"Lecturer {lecture.LastName} Registered Successfully.");
+                            //Excute the Database
+                            using (SQLiteCommand command = new SQLiteCommand(lecturerQuery, connect))
+                            {
+                                command.Parameters.AddWithValue("@firstName", lecture.FirstName);
+                                command.Parameters.AddWithValue("@lastName", lecture.LastName);
+                                command.Parameters.AddWithValue("@dateOfBirth", lecture.DateOfBirth);
+                                command.Parameters.AddWithValue("@gender", lecture.Gender);
+                                command.Parameters.AddWithValue("@nationality", lecture.Nationality);
+                                command.Parameters.AddWithValue("@nicno", lecture.NICno);
+                                command.Parameters.AddWithValue("@gmail", lecture.Gmail);
+                                command.Parameters.AddWithValue("@phoneNumber", lecture.PhoneNumber);
+                                command.Parameters.AddWithValue("@address", lecture.Address);
+                                command.Parameters.AddWithValue("@maritalStatus", lecture.MaritalStatus);
+                                command.Parameters.AddWithValue("@relationName", lecture.RelationName);
+                                command.Parameters.AddWithValue("@relationship", lecture.Relationship);
+                                command.Parameters.AddWithValue("@relationNumber", lecture.Relationnumber);
+                                command.Parameters.AddWithValue("@salary", lecture.Salary);
+                                command.Parameters.AddWithValue("@qualification", lecture.Qualification);
+                                command.Parameters.AddWithValue("@usersID", userRegisterForm.Id);
+                                command.Parameters.AddWithValue("@departmentsID", lecture.DepartmentsID);
+                                command.ExecuteNonQuery();
+                                MessageBox.Show($"Lecturer {lecture.LastName} Registered Successfully.");
+                                long lastLecturerId = connect.LastInsertRowId;
+                                SaveLecturerSubject((int)lastLecturerId, lecture.SubjectsID); ;
+                            }
                         }
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show($"Error saving lecturer data:\n{ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show($"Error saving lecturer data:\n{ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
                     }
                 }
             }
             else
             {
                 MessageBox.Show("Complete all lecturer information.");
+            }
+        }
+        private void SaveLecturerSubject(int lecturerId,int subjectId)
+        {
+            using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
+            {
+                string saveLecturerSubjectQuery = @"INSERT INTO LecturersSubjects(LecturersID,SubjectsID)
+                                                   VALUES(@lecturerId,@subjectId)";
+                using(SQLiteCommand command = new SQLiteCommand(saveLecturerSubjectQuery,connect))
+                {
+                    command.Parameters.AddWithValue("@lecturerId", lecturerId);
+                    command.Parameters.AddWithValue("@subjectId", subjectId);
+                    command.ExecuteNonQuery();
+                }
             }
         }
     }

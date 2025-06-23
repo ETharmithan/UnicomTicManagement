@@ -30,37 +30,37 @@ namespace UnicomTICManagementSystem.View
         //Save FirstName
         private void ta_firstname_TextChanged(object sender, EventArgs e)
         {
-            admin.Firstname = ta_firstname.Text;
+            admin.Firstname = ta_firstname.Text.Trim();
             la_firstname.Text = null;
         }
         //Save LastName
         private void ta_lastname_TextChanged(object sender, EventArgs e)
         {
-            admin.Lastname = ta_lastname.Text;
+            admin.Lastname = ta_lastname.Text.Trim();
             la_lastname.Text = null;
         }
         //Save NIC
         private void ta_nic_TextChanged(object sender, EventArgs e)
         {
-            admin.NIC = ta_nic.Text;
+            admin.NIC = ta_nic.Text.Trim();
             la_nic.Text = null;
         }
         //Save Gmail
         private void ta_gmail_TextChanged(object sender, EventArgs e)
         {
-            admin.Gmail = ta_gmail.Text;
+            admin.Gmail = ta_gmail.Text.Trim();
             la_gmail.Text = null;
         }
         //Save PhoneNumber
         private void ta_mobile_TextChanged(object sender, EventArgs e)
         {
-            admin.PhoneNumber = ta_mobile.Text;
+            admin.PhoneNumber = ta_mobile.Text.Trim();
             la_mobile.Text = null;
         }
         //Save Address
         private void ta_address_TextChanged(object sender, EventArgs e)
         {
-            admin.Address = ta_address.Text;
+            admin.Address = ta_address.Text.Trim();
             la_address.Text = null;
         }
         //Clear Method
@@ -84,12 +84,12 @@ namespace UnicomTICManagementSystem.View
         {
             if (ra_male.Checked)
             {
-                admin.Gender = ra_male.Text;
+                admin.Gender = ra_male.Text.Trim();
                 la_gender.Text = null;
             }
             else if (ra_female.Checked)
             {
-                admin.Gender = ra_female.Text;
+                admin.Gender = ra_female.Text.Trim();
                 la_gender.Text = null;
             }
 

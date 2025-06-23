@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UnicomTICManagementSystem.Controllers;
 using UnicomTICManagementSystem.Models;
 
 namespace UnicomTICManagementSystem.View
@@ -14,9 +15,22 @@ namespace UnicomTICManagementSystem.View
     public partial class LecturerRegisterForm1 : Form
     {
         Lecture lecture = new Lecture();
+        LectureController lectureController = new LectureController();
         public LecturerRegisterForm1()
         {
             InitializeComponent();
+        }
+        private void LoadDepartment()
+        {
+            DepartmentController departmentController = new DepartmentController();
+            cl_department.DataSource = departmentController.GetAllDepartments();
+            cl_department.DisplayMember = "Name";
+            cl_department.ValueMember = "ID";
+            cl_department.SelectedIndex = -1;
+        }
+        private void LecturerRegisterForm1_Load(object sender, EventArgs e)
+        {
+            LoadDepartment();
         }
         //FirstName
         private void tl_firstname_TextChanged(object sender, EventArgs e)
@@ -33,7 +47,7 @@ namespace UnicomTICManagementSystem.View
         //Date of Birth
         private void dl_dateofbirth_ValueChanged(object sender, EventArgs e)
         {
-            lecture.DateOfBirth=dl_dateofbirth.Value.ToString();
+            lecture.DateOfBirth=dl_dateofbirth.Value;
             ll_dateofbirth.Text = null;
         }
         //Nationality
@@ -101,22 +115,22 @@ namespace UnicomTICManagementSystem.View
         {
             lecture.Qualification = ts_qualification.Text.Trim();
         }
-        private void tl_nationality_Click(object sender, EventArgs e)
+        //Gender Male Check
+        private void rl_male_CheckedChanged(object sender, EventArgs e)
         {
             if (rl_male.Checked)
             {
                 lecture.Gender = rl_male.Text;
             }
-            else if (rl_female.Checked)
+        }
+        //Gender Female Check
+        private void rl_female_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rl_female.Checked)
             {
                 lecture.Gender = rl_female.Text;
             }
-            //else
-            //{
-            //    ll_gender.Text = ":*Select Your Gender";
-            //}
         }
-
         //Add to Department
         private void bl_adddepartment_Click(object sender, EventArgs e)
         {
@@ -130,7 +144,7 @@ namespace UnicomTICManagementSystem.View
             subjectRegister.ShowDialog();
         }
         //Create Clear Method
-        public void clearfield()
+        public void Clearfield()
         {
             tl_firstname.Clear();
             tl_lastname.Clear();
@@ -159,20 +173,53 @@ namespace UnicomTICManagementSystem.View
             cl_Subject.Text = null;
         }
         private void bl_submit_Click(object sender, EventArgs e)
-        {
-
+        {            
+            lectureController.CreateLecture(lecture);
+            Clearfield();
         }
         private void bl_clear_Click(object sender, EventArgs e)
         {
-            clearfield();
+            Clearfield();
         }
 
+        private void LoadSubjectsByDepartment(int departmentId)
+        {
+            SubjectController subjectController = new SubjectController();
+            var subjects = subjectController.GetSubjectsByDepartmentId(departmentId);
+            cl_Subject.DataSource = subjects;
+            cl_Subject.DisplayMember = "Name";
+            cl_Subject.ValueMember= "Id";
+        }
+        private void cl_department_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(cl_department.SelectedItem is Department selectedDepartment)
+            {
+                int departmentid = selectedDepartment.ID;
+                lecture.DepartmentsID = selectedDepartment.ID;
+                LoadSubjectsByDepartment(departmentid);
+                cl_Subject.Enabled = true;
+            }
+            else
+            {
+                cl_Subject.DataSource = null;
+                cl_Subject.Enabled = false;
+            }
+        }
+        private int selectedSubjectId = 0;
+        private void cl_Subject_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cl_Subject.SelectedItem is Subject selected)
+            {
+                selectedSubjectId = selected.Id;
+                lecture.SubjectsID = selected.Id;
+            }
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void LecturerRegisterForm1_Load(object sender, EventArgs e)
+        private void tl_nationality_Click(object sender, EventArgs e)
         {
 
         }

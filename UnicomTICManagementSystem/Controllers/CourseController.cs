@@ -92,8 +92,7 @@ namespace UnicomTICManagementSystem.Controllers
             List<Subject> subjects = new List<Subject>();
             using(SQLiteConnection connect = DatabaseManager.DatabaseConnect())
             {
-                string csQuery = @"SELECT s.ID, s.Name, s.Credit, s.DepartmentsID
-                                 FROM Subjects s
+                string csQuery = @"SELECT * FROM Subjects s
                                  JOIN CourseSubject cs ON s.ID = cs.SubjectID
                                  WHERE cs.CoursesID = @coursesId;";
                 using (SQLiteCommand command = new SQLiteCommand(csQuery, connect))
@@ -113,6 +112,48 @@ namespace UnicomTICManagementSystem.Controllers
                 }
             }
             return subjects;
+        }
+        public List<Course> GetCoursesFromDatabase()
+        {
+            var courses = new List<Course>();
+            using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
+            {
+                string coursefromdataQuery = "SELECT * FROM Courses";
+                using (SQLiteCommand command = new SQLiteCommand(coursefromdataQuery, connect))
+                {
+                    using (SQLiteDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            courses.Add(new Course
+                            {
+                                Id = Convert.ToInt32(reader["Id"]),
+                                Name = reader["Name"].ToString(),
+                            });
+                        }
+                    }
+                }
+                return courses;
+            }
+        }
+        public List<Course> GetAllCourses()
+        {
+            List<Course> courses = new List<Course>();
+            using(SQLiteConnection connect = DatabaseManager.DatabaseConnect())
+            {
+                SQLiteCommand command = connect.CreateCommand();
+                command.CommandText = "SELECT * FROM Courses";
+                SQLiteDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    courses.Add(new Course
+                    {
+                        Id = Convert.ToInt32(reader["Id"]),
+                        Name = reader["Name"].ToString(),
+                    });
+                }
+            }
+            return courses ;
         }
     }
 }

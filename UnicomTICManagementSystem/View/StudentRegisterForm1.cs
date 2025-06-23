@@ -21,6 +21,10 @@ namespace UnicomTICManagementSystem.View
         {
             InitializeComponent();
         }
+        private void StudentRegisterForm1_Load(object sender, EventArgs e)
+        {
+            LoadDepartments();
+        }
         //FirstName
         private void tst_firstname_TextChanged(object sender, EventArgs e)
         {
@@ -156,12 +160,9 @@ namespace UnicomTICManagementSystem.View
             cst_department.DataSource = departmentController.GetAllDepartments();
             cst_department.DisplayMember = "Name";
             cst_department.ValueMember = "ID";
+            cst_department.SelectedIndex = -1;
         }
 
-        private void StudentRegisterForm1_Load(object sender, EventArgs e)
-        {
-            LoadDepartments();
-        }
         private void LoadCoursesByDepartment(int departmentId)
         {
             CourseController courseController = new CourseController();
@@ -173,10 +174,16 @@ namespace UnicomTICManagementSystem.View
 
         private void cst_department_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(cst_department.SelectedItem is Department selectedDepartment)
+            if (cst_department.SelectedItem is Department selectedDepartment)
             {
                 int departmentId = selectedDepartment.ID;
                 LoadCoursesByDepartment(departmentId);
+                cst_Course.Enabled = true;
+            }
+            else
+            {
+                cst_Course.DataSource = null;
+                cst_Course.Enabled = false;
             }
         }
     }

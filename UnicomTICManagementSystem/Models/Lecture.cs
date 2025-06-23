@@ -11,7 +11,7 @@ namespace UnicomTICManagementSystem.Models
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string DateOfBirth {  get; set; }
+        public DateTime DateOfBirth {  get; set; }
         public string Gender {  get; set; }
         public string Nationality { get; set; }
         public string NICno {  get; set; }
@@ -24,10 +24,9 @@ namespace UnicomTICManagementSystem.Models
         public string Relationnumber {  get; set; }
         public string Salary { get; set; }
         public string Qualification {  get; set; }
-        public int SubjectsID {  get; set; }
         public int UsersID {  get; set; }
         public int DepartmentsID {  get; set; }
-        public int StudentsID {  get; set; }
+        public int SubjectsID {get; set; }
 
     }
 }
