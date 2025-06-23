@@ -513,6 +513,7 @@
             this.bl_back.TabIndex = 37;
             this.bl_back.Text = "Back";
             this.bl_back.UseVisualStyleBackColor = true;
+            this.bl_back.Click += new System.EventHandler(this.bl_back_Click);
             // 
             // bl_clear
             // 

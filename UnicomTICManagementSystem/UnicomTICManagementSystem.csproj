@@ -188,11 +188,29 @@
     <Compile Include="View\ViewExam.Designer.cs">
       <DependentUpon>ViewExam.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\ViewLectureDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewLectureDetails.Designer.cs">
+      <DependentUpon>ViewLectureDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\ViewMarks.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\ViewMarks.Designer.cs">
       <DependentUpon>ViewMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewStaffDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewStaffDetails.Designer.cs">
+      <DependentUpon>ViewStaffDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewStudentDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewStudentDetails.Designer.cs">
+      <DependentUpon>ViewStudentDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="View\ViewSubjects.cs">
       <SubType>Form</SubType>
@@ -251,8 +269,17 @@
     <EmbeddedResource Include="View\ViewExam.resx">
       <DependentUpon>ViewExam.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewLectureDetails.resx">
+      <DependentUpon>ViewLectureDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\ViewMarks.resx">
       <DependentUpon>ViewMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewStaffDetails.resx">
+      <DependentUpon>ViewStaffDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewStudentDetails.resx">
+      <DependentUpon>ViewStudentDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\ViewSubjects.resx">
       <DependentUpon>ViewSubjects.cs</DependentUpon>

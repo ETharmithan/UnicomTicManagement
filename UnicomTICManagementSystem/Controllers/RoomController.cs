@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using UnicomTICManagementSystem.Models;
 using UnicomTICManagementSystem.Repositories;
@@ -12,69 +9,118 @@ namespace UnicomTICManagementSystem.Controllers
 {
     internal class RoomController
     {
-        //Select Room Type
+        // Validation: Check if RoomType is provided
         public bool SelectRoomType(Room room)
         {
-            if (!string.IsNullOrWhiteSpace(room.RoomType)) { return true; }
-            else {  return false; }
+            // Returns true if RoomType is not null, empty or whitespace
+            if (!string.IsNullOrWhiteSpace(room.RoomType))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
-        //Enter Room Number
+
+        // Validation: Check if RoomNumber is provided
         public bool SelectRoomNumber(Room room)
         {
-            if (!string.IsNullOrWhiteSpace(room.RoomNumber)) { return true; }
-            else { return false; }
+            // Returns true if RoomNumber is not null, empty or whitespace
+            if (!string.IsNullOrWhiteSpace(room.RoomNumber))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
-        //Enter Capacity of Room
+
+        // Validation: Check if Capacity is provided
         public bool SelectRoomCapacity(Room room)
         {
-            if (!string.IsNullOrWhiteSpace(room.Capacity)) { return true; }
-            else { return false; }
+            // Returns true if Capacity is not null, empty or whitespace
+            if (!string.IsNullOrWhiteSpace(room.Capacity))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
+
+        // Create a new Room entry in the database if all required fields are filled
         public void CreateRoom(Room room)
         {
-            if(!string.IsNullOrWhiteSpace(room.RoomType) && 
+            // Check if all required room properties are provided before saving
+            if (!string.IsNullOrWhiteSpace(room.RoomType) &&
                !string.IsNullOrWhiteSpace(room.RoomNumber) &&
-               !string.IsNullOrEmpty(room.Capacity))
+               !string.IsNullOrWhiteSpace(room.Capacity))  // Changed from IsNullOrEmpty to IsNullOrWhiteSpace for consistency
             {
-                using(SQLiteConnection connect = DatabaseManager.DatabaseConnect())
+                // Open database connection
+                using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
                 {
-                    string roomQuery = @"INSERT INTO Rooms(RoomType,RoomNumber,Capacity)
-                                         VALUES(@roomtype,@roomnumber,@capacity)";
+                    // SQL Insert command for the Rooms table
+                    string roomQuery = @"INSERT INTO Rooms(RoomType, RoomNumber, Capacity)
+                                         VALUES(@roomtype, @roomnumber, @capacity)";
+
                     try
                     {
+                        // Execute the insert command with parameterized query to prevent SQL injection
                         using (SQLiteCommand command = new SQLiteCommand(roomQuery, connect))
                         {
                             command.Parameters.AddWithValue("@roomtype", room.RoomType);
-                            command.Parameters.AddWithValue("@roomnumber",room.RoomNumber);
-                            command.Parameters.AddWithValue("@capacity",room.Capacity);
+                            command.Parameters.AddWithValue("@roomnumber", room.RoomNumber);
+                            command.Parameters.AddWithValue("@capacity", room.Capacity);
                             command.ExecuteNonQuery();
+
+                            // Notify user that room is saved successfully
                             MessageBox.Show("Room saved successfully!");
                         }
                     }
                     catch (Exception ex)
                     {
+                        // Show error message if exception occurs during database operation
                         MessageBox.Show($"Error saving room data:\n{ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }
+            else
+            {
+                // Optional: Notify user to fill all required fields before creating a room
+                MessageBox.Show("Please fill all required room details.");
+            }
         }
+
+        // Retrieve all rooms from the database and return as a list of Room objects
         public List<Room> GetallRooms()
         {
             List<Room> rooms = new List<Room>();
+
+            // Open database connection
             using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
             {
                 SQLiteCommand command = connect.CreateCommand();
-                command.CommandText = "SELECT * FROM Rooms";
+                command.CommandText = "SELECT * FROM Rooms";  // SQL query to get all rooms
+
+                // Execute the query and get a data reader
                 SQLiteDataReader reader = command.ExecuteReader();
+
+                // Read each record and add to the rooms list
                 while (reader.Read())
                 {
                     rooms.Add(new Room
                     {
-                        ID = Convert.ToInt32(reader["ID"]),
-                        RoomNumber = reader["RoomNumber"].ToString()
+                        ID = Convert.ToInt32(reader["ID"]),                // Room ID from database
+                        RoomNumber = reader["RoomNumber"].ToString()       // Room number from database
+                        // You can add other properties like RoomType, Capacity if needed
                     });
                 }
             }
+
+            // Return the list of rooms retrieved from database
             return rooms;
         }
     }

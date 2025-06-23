@@ -199,6 +199,7 @@
             this.bst_back.TabIndex = 10;
             this.bst_back.Text = "Back";
             this.bst_back.UseVisualStyleBackColor = true;
+            this.bst_back.Click += new System.EventHandler(this.bst_back_Click);
             // 
             // bst_clear
             // 

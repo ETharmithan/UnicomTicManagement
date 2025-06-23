@@ -19,7 +19,7 @@ namespace UnicomTICManagementSystem
             Migration.CreateTable();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new AdminRegisterForm());
+            Application.Run(new AdminRegisterForm());
             //Application.Run(new StaffRegisterForm());
             //Application.Run(new DepartmentRegister());
             //Application.Run(new CourseRegisterForm());
@@ -28,7 +28,11 @@ namespace UnicomTICManagementSystem
             //Application.Run(new LecturerRegisterForm1());
             //Application.Run(new UserSigninForm());
             //Application.Run(new RoomRegister());
-            Application.Run(new ExamRegisterForm());
+            //Application.Run(new ExamRegisterForm());
+            //Application.Run(new ViewStudentDetails());
+            //Application.Run(new ViewStaffDetails());
+            //Application.Run(new ViewLectureDetails());
+            //Application.Run(new ViewSubjects());
         }
     }
 }

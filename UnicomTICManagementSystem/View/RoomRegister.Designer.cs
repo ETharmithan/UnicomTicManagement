@@ -146,6 +146,7 @@
             this.br_back.TabIndex = 13;
             this.br_back.Text = "Back";
             this.br_back.UseVisualStyleBackColor = true;
+            this.br_back.Click += new System.EventHandler(this.br_back_Click);
             // 
             // dataGridView1
             // 
@@ -222,6 +223,7 @@
             this.Controls.Add(this.label1);
             this.Name = "RoomRegister";
             this.Text = "RoomRegister";
+            this.Load += new System.EventHandler(this.RoomRegister_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

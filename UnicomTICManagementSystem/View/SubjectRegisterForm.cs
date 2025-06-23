@@ -124,7 +124,7 @@ namespace UnicomTICManagementSystem.View
 
         private void bs_back_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
     }
 }

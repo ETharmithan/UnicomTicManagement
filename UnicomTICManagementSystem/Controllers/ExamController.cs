@@ -15,16 +15,17 @@ namespace UnicomTICManagementSystem.Controllers
     {
         public void CreateExam(Exam exam)
         {
+            // Validate required exam properties before saving
             if (!string.IsNullOrWhiteSpace(exam.ExamName) &&
                 !string.IsNullOrWhiteSpace(exam.Duration) &&
                 !string.IsNullOrWhiteSpace(exam.Remarks) &&
-                !string.IsNullOrWhiteSpace(exam.ExamType)&&
+                !string.IsNullOrWhiteSpace(exam.ExamType) &&
                 !string.IsNullOrWhiteSpace(exam.Status))
-
-
             {
+                // Open a connection to the SQLite database
                 using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
                 {
+                    // SQL query to insert a new exam record into the Exams table
                     string examQuery = @"INSERT INTO Exams(
                                   ExamName, ExamDate, ExamTime, ExamType, Duration, Remarks, Status,
                                   CoursesID, SubjectsID, RoomsID)
@@ -32,8 +33,10 @@ namespace UnicomTICManagementSystem.Controllers
                                   @ExamName, @ExamDate, @ExamTime, @ExamType, @Duration, @Remarks,
                                   @Status, @CoursesID, @SubjectsID, @RoomsID
                                   );";
+
                     try
                     {
+                        // Prepare the command and bind parameters
                         using (SQLiteCommand command = new SQLiteCommand(examQuery, connect))
                         {
                             command.Parameters.AddWithValue("@ExamName", exam.ExamName);
@@ -47,15 +50,24 @@ namespace UnicomTICManagementSystem.Controllers
                             command.Parameters.AddWithValue("@SubjectsID", exam.SubjectsID);
                             command.Parameters.AddWithValue("@RoomsID", exam.RoomsID);
 
+                            // Execute the insert command
                             command.ExecuteNonQuery();
+
+                            // Inform user of successful registration
                             MessageBox.Show($"{exam.ExamName} Registered Successfully.");
                         }
                     }
                     catch (Exception ex)
                     {
+                        // Show error message if database operation fails
                         MessageBox.Show($"Error saving exam data:\n{ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
+            }
+            else
+            {
+                // You might want to add this to inform the user that validation failed
+                MessageBox.Show("Please fill in all required exam details.");
             }
         }
 

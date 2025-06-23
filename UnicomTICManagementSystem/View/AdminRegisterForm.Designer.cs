@@ -305,6 +305,7 @@
             this.ba_back.TabIndex = 23;
             this.ba_back.Text = "Back";
             this.ba_back.UseVisualStyleBackColor = true;
+            this.ba_back.Click += new System.EventHandler(this.ba_back_Click);
             // 
             // ba_clear
             // 

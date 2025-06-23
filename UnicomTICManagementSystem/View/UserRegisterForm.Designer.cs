@@ -155,6 +155,7 @@
             this.bu_back.TabIndex = 13;
             this.bu_back.Text = "Back";
             this.bu_back.UseVisualStyleBackColor = true;
+            this.bu_back.Click += new System.EventHandler(this.bu_back_Click);
             // 
             // tu_username
             // 

@@ -13,38 +13,42 @@ namespace UnicomTICManagementSystem.Controllers
 {
     internal class AdminController
     {
-        //Firstname Checked Validation
+        // Validates if Firstname is not empty or null
         public bool CheckFirstName(Admin admin)
         {
-            if (!string.IsNullOrWhiteSpace(admin.Firstname)) {  return true; }
-            else {  return false; }
+            return !string.IsNullOrWhiteSpace(admin.Firstname);
         }
-        //Lastname Checked Validation
+
+        // Validates if Lastname is not empty or null
         public bool CheckLastName(Admin admin)
         {
-            if (!string.IsNullOrWhiteSpace(admin.Lastname)) {  return true; }
-            else { return false; }
+            return !string.IsNullOrWhiteSpace(admin.Lastname);
         }
-        //Nic Checked Validation
+
+        // Validates if NIC is not empty or null
         public bool CheckNic(Admin admin)
         {
-            if (!string.IsNullOrWhiteSpace(admin.NIC)) { return true; }
-            else { return false; }
+            return !string.IsNullOrWhiteSpace(admin.NIC);
         }
-        //Gmail Checked Validation
+
+        // Validates if Gmail is not empty or null
         public bool CheckGmail(Admin admin)
         {
-            if (!string.IsNullOrWhiteSpace(admin.Gmail)){  return true; }
-            else { return false; }
+            return !string.IsNullOrWhiteSpace(admin.Gmail);
         }
-        //Phone Number Checked Validation
-        public bool CheckPhoneNumber(Admin admin) 
+
+        // Validates if phone number is exactly 10 digits and only numeric
+        public bool CheckPhoneNumber(Admin admin)
         {
-            if(!string.IsNullOrWhiteSpace(admin.PhoneNumber) && admin.PhoneNumber.All(Char.IsDigit) && admin.PhoneNumber.Length ==10) {  return true; }
-            else { return false; }
+            return !string.IsNullOrWhiteSpace(admin.PhoneNumber) &&
+                   admin.PhoneNumber.All(Char.IsDigit) &&
+                   admin.PhoneNumber.Length == 10;
         }
+
+        // Creates an Admin after validating all fields and linking to a User account
         public void CreateAdmin(Admin admin)
         {
+            // Check if all required fields are filled
             if (!string.IsNullOrWhiteSpace(admin.Firstname) &&
                 !string.IsNullOrWhiteSpace(admin.Lastname) &&
                 !string.IsNullOrWhiteSpace(admin.NIC) &&
@@ -52,25 +56,26 @@ namespace UnicomTICManagementSystem.Controllers
                 !string.IsNullOrWhiteSpace(admin.PhoneNumber) &&
                 !string.IsNullOrWhiteSpace(admin.Address) &&
                 !string.IsNullOrWhiteSpace(admin.Gender))
-                    
             {
-                //View UserRegisterForm
+                // Open the User Registration Form to create a linked User entry
                 UserRegisterForm userRegister = new UserRegisterForm();
                 userRegister.ShowDialog();
-                if (userRegister.Id > 0) 
+
+                // If a valid user was created (Id > 0), proceed to create Admin
+                if (userRegister.Id > 0)
                 {
-                    //Database Connect
                     using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
                     {
+                        // SQL Query to insert a new admin
                         string adminQuery = @"INSERT INTO Admins(
-                                    Firstname, Lastname, NIC, Gmail, PhoneNumber, Address, Gender,UsersID) VALUES(
-                                    @firstname,@lastname,@nic,@gmail,@mobile,@address,@gender,@usersid);";
+                                    Firstname, Lastname, NIC, Gmail, PhoneNumber, Address, Gender, UsersID) 
+                                    VALUES (@firstname, @lastname, @nic, @gmail, @mobile, @address, @gender, @usersid);";
+
                         try
                         {
-                            //Excute the Database
                             using (SQLiteCommand command = new SQLiteCommand(adminQuery, connect))
                             {
-
+                                // Add admin values to query
                                 command.Parameters.AddWithValue("@firstname", admin.Firstname);
                                 command.Parameters.AddWithValue("@lastname", admin.Lastname);
                                 command.Parameters.AddWithValue("@nic", admin.NIC);
@@ -79,22 +84,22 @@ namespace UnicomTICManagementSystem.Controllers
                                 command.Parameters.AddWithValue("@address", admin.Address);
                                 command.Parameters.AddWithValue("@gender", admin.Gender);
                                 command.Parameters.AddWithValue("@usersid", userRegister.Id);
+
+                                // Execute insert
                                 command.ExecuteNonQuery();
                                 MessageBox.Show($"Admin {admin.Lastname} Registered Successfully.");
-
                             }
                         }
                         catch (Exception ex)
                         {
                             MessageBox.Show($"Error saving admin data:\n{ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
-
                     }
                 }
-                
             }
             else
             {
+                // If any field is missing, show validation message
                 MessageBox.Show("Complete all admin information.");
             }
         }

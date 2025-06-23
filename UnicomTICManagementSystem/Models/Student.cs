@@ -21,6 +21,9 @@ namespace UnicomTICManagementSystem.Models
         public string FatherName { get; set; }
         public string MotherName {  get; set; }
         public string ParentsPhoneNumber { get; set; }
+        public DateTime AdmissionDate { get; set; }
+        public string DepartmentName { get; set; }
+        public string CourseName { get; set; }
         public int UsersID {  get; set; }
         public int DepartmentsID {  get; set; }
         public int CoursesID {  get; set; }

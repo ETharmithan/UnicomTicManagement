@@ -16,5 +16,10 @@ namespace UnicomTICManagementSystem.View
         {
             InitializeComponent();
         }
+
+        private void MarkRegister_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

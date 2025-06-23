@@ -83,5 +83,9 @@ namespace UnicomTICManagementSystem.View
 
         }
 
+        private void bu_back_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -194,5 +194,15 @@ namespace UnicomTICManagementSystem.View
         {
 
         }
+
+        private void bs_back_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void StaffRegisterForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -9,11 +9,18 @@ namespace UnicomTICManagementSystem.Repositories
 {
     internal static class DatabaseManager
     {
-         public static SQLiteConnection DatabaseConnect()
+        public static SQLiteConnection DatabaseConnect()
         {
-            string Query = "DATA SOURCE = unicomtic.db; VERSION = 3;";
+            // Connection string for the SQLite database file.
+            // Make sure "unicomtic.db" exists in the application directory or specify a full path.
+            string Query = "DATA SOURCE=unicomtic.db;VERSION=3;";
+
+            // Create a new connection using the connection string
             SQLiteConnection sqliteconnect = new SQLiteConnection(Query);
+
+            // Open the connection before returning it
             sqliteconnect.Open();
+
             return sqliteconnect;
         }
     }

@@ -10,19 +10,27 @@ namespace UnicomTICManagementSystem.Controllers
 {
     internal class LecturerSubjectController
     {
-        public void AssignLecturertoSubject(int LectureId,int SubjectId)
+        public void AssignLecturertoSubject(int LectureId, int SubjectId)
         {
-            using(SQLiteConnection connect = DatabaseManager.DatabaseConnect())
+            // Open a connection to the SQLite database using a helper method
+            using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
             {
-                string LecturerSubjectQuery = @"INSERT INTO LecturesSubjects(LecturersID,SubjectsID)
-                                                VALUES(@lecturersid,@subjectsid);";
-                using(SQLiteCommand command = new SQLiteCommand(LecturerSubjectQuery, connect))
+                // SQL query to insert a new lecturer-subject relationship
+                string LecturerSubjectQuery = @"INSERT INTO LecturesSubjects(LecturersID, SubjectsID)
+                                               VALUES(@lecturersid, @subjectsid);";
+
+                // Create a SQLiteCommand to execute the query with parameters to prevent SQL injection
+                using (SQLiteCommand command = new SQLiteCommand(LecturerSubjectQuery, connect))
                 {
-                    command.Parameters.AddWithValue("@lecturersid",LectureId);
+                    // Bind parameters with the method arguments
+                    command.Parameters.AddWithValue("@lecturersid", LectureId);
                     command.Parameters.AddWithValue("@subjectsid", SubjectId);
+
+                    // Execute the insert command on the database
                     command.ExecuteNonQuery();
                 }
             }
+            // The connection and command are disposed automatically because of 'using' statements
         }
     }
 }

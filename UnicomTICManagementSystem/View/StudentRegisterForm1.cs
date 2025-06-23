@@ -137,7 +137,7 @@ namespace UnicomTICManagementSystem.View
                 MessageBox.Show("Enter a valid Phone number!");
                 return;
             }
-            if (studentController.CheckFirsteName(student) == false) { lst_firstname.Text = "Enter Your FirstName"; }
+            if (studentController.CheckFirstName(student) == false) { lst_firstname.Text = "Enter Your FirstName"; }
             if (studentController.CheckLastName(student) == false) { lst_lastname.Text = "Enter Your LastName"; }
             if (studentController.CheckNIC(student) == false) { lst_nic.Text = "Enter Your Nic"; }
             if (studentController.CheckNationality(student) == false) { lst_nationality.Text = "Enter Your Nationality"; }
@@ -185,6 +185,11 @@ namespace UnicomTICManagementSystem.View
                 cst_Course.DataSource = null;
                 cst_Course.Enabled = false;
             }
+        }
+
+        private void bst_back_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

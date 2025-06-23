@@ -98,6 +98,7 @@
             this.bd_back.TabIndex = 5;
             this.bd_back.Text = "Back";
             this.bd_back.UseVisualStyleBackColor = true;
+            this.bd_back.Click += new System.EventHandler(this.bd_back_Click);
             // 
             // bd_clear
             // 

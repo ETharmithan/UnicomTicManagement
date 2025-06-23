@@ -469,3 +469,6 @@ D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagement
 D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
 D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
 D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ExamRegisterForm.resources
+D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewStudentDetails.resources
+D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewStaffDetails.resources
+D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewLectureDetails.resources

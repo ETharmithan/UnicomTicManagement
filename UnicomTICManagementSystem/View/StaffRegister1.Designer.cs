@@ -340,6 +340,7 @@
             this.bs_back.TabIndex = 26;
             this.bs_back.Text = "Back";
             this.bs_back.UseVisualStyleBackColor = true;
+            this.bs_back.Click += new System.EventHandler(this.bs_back_Click);
             // 
             // rs_male
             // 
@@ -689,6 +690,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StaffRegisterForm";
             this.Text = "StaffRegister";
+            this.Load += new System.EventHandler(this.StaffRegisterForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

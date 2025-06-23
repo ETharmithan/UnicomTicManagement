@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using UnicomTICManagementSystem.Controllers;
 using UnicomTICManagementSystem.Models;
@@ -14,81 +7,104 @@ namespace UnicomTICManagementSystem.View
 {
     public partial class CourseRegisterForm : Form
     {
-        
+        // Model instance to store course data temporarily
         Course course = new Course();
+
+        // Controller instance to interact with the database
         CourseController courseController = new CourseController();
+
+        // Constructor
         public CourseRegisterForm()
         {
             InitializeComponent();
         }
-        private void LoadDepartment() 
+
+        // Loads the list of departments into the ComboBox when the form loads.
+        private void LoadDepartment()
         {
             DepartmentController departmentController = new DepartmentController();
-            cc_department.DataSource = departmentController.GetAllDepartments();
-            cc_department.DisplayMember = "Name";
-            cc_department.ValueMember = "ID";
+            cc_department.DataSource = departmentController.GetAllDepartments(); // Bind list of departments
+            cc_department.DisplayMember = "Name"; // Show the department name in dropdown
+            cc_department.ValueMember = "ID";     // Use the ID as the value
         }
+
+        // Button click handler to open the department registration form.
         private void bc_addtodepartment_Click(object sender, EventArgs e)
         {
             DepartmentRegister departmentRegister = new DepartmentRegister();
-            departmentRegister.ShowDialog();
+            departmentRegister.ShowDialog(); // Show department registration form as modal
         }
 
+        // Form load event to populate department ComboBox.
         private void CourseRegisterForm_Load(object sender, EventArgs e)
         {
-            LoadDepartment();
+            LoadDepartment(); // Populate departments when form loads
         }
 
-        //Save Name
+        // TextChanged event for course name input.
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            course.Name = textBox1.Text;
-            //lc_name.Text = null;
-        }
-        
-        //Save Description
-        private void tc_description_TextChanged(object sender, EventArgs e)
-        {
-            course.Description = tc_description.Text;
-            //lc_description.Text = null;
+            course.Name = textBox1.Text.Trim(); // Save course name
+            // lc_name.Text = null; // You can show validation messages here
         }
 
-        //Save Duration
+        // TextChanged event for course description input.
+        private void tc_description_TextChanged(object sender, EventArgs e)
+        {
+            course.Description = tc_description.Text.Trim(); // Save description
+            // lc_description.Text = null;
+        }
+
+        // TextChanged event for course duration input.
         private void tc_duration_TextChanged(object sender, EventArgs e)
         {
-            course.Duration = tc_duration.Text;
-            //lc_duration.Text = null;
+            course.Duration = tc_duration.Text.Trim(); // Save duration
+            // lc_duration.Text = null;
         }
-        //Create Clear Method
+
+        // Clears all form input fields.
         public void ClearField()
         {
             textBox1.Clear();
             tc_description.Clear();
             tc_duration.Clear();
         }
-        //Clear Details
+
+        // Button click handler to clear the form inputs.
         private void bc_clear_Click(object sender, EventArgs e)
         {
-            ClearField();
+            ClearField(); // Clear fields on button click
         }
+
+        // Closes the form (back button).
         private void bc_back_Click(object sender, EventArgs e)
         {
-            
+            Close(); // Close the current form
         }
+
+        // Button click handler to save the course into the database.
         private void bc_addtosubject_Click(object sender, EventArgs e)
         {
-            course.DepartmentsID =Convert.ToInt32(cc_department.SelectedValue);
+            // Set selected department ID for the course
+            course.DepartmentsID = Convert.ToInt32(cc_department.SelectedValue);
+
+            // Call controller to save course
             courseController.CreateCourse(course);
+
+            // Clear form after successful save
             ClearField();
         }
+
+        // Optional event handler for when department selection changes.
         private void cc_department_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            // Can be used for validation or dynamic filtering
         }
 
+        // Opens subject registration form (or subject assignment form).
         private void bcr_addtosubject_Click(object sender, EventArgs e)
         {
-            cs_lecturer subject = new cs_lecturer();
+            cs_lecturer subject = new cs_lecturer(); // Possibly a form to assign subjects to course
             subject.ShowDialog();
         }
     }
