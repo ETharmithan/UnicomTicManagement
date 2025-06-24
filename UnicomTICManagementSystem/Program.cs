@@ -35,6 +35,7 @@ namespace UnicomTICManagementSystem
             //Application.Run(new ViewSubjects());
             //Application.Run(new MarkRegister());
             Application.Run(new DashBoardForm());
+            //Application.Run(new ViewAdmin());
 
         }
     }

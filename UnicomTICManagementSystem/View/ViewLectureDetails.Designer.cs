@@ -34,9 +34,9 @@
             this.bl_update = new System.Windows.Forms.Button();
             this.bl_search = new System.Windows.Forms.Button();
             this.tl_search = new System.Windows.Forms.TextBox();
-            this.dl_lecturer = new System.Windows.Forms.DataGridView();
+            this.dl_lecture = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dl_lecturer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dl_lecture)).BeginInit();
             this.SuspendLayout();
             // 
             // bl_back
@@ -102,15 +102,15 @@
             this.tl_search.Size = new System.Drawing.Size(299, 27);
             this.tl_search.TabIndex = 16;
             // 
-            // dl_lecturer
+            // dl_lecture
             // 
-            this.dl_lecturer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dl_lecturer.Location = new System.Drawing.Point(41, 297);
-            this.dl_lecturer.Name = "dl_lecturer";
-            this.dl_lecturer.RowHeadersWidth = 51;
-            this.dl_lecturer.RowTemplate.Height = 24;
-            this.dl_lecturer.Size = new System.Drawing.Size(1129, 392);
-            this.dl_lecturer.TabIndex = 15;
+            this.dl_lecture.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dl_lecture.Location = new System.Drawing.Point(41, 297);
+            this.dl_lecture.Name = "dl_lecture";
+            this.dl_lecture.RowHeadersWidth = 51;
+            this.dl_lecture.RowTemplate.Height = 24;
+            this.dl_lecture.Size = new System.Drawing.Size(1129, 392);
+            this.dl_lecture.TabIndex = 15;
             // 
             // label1
             // 
@@ -134,11 +134,11 @@
             this.Controls.Add(this.bl_update);
             this.Controls.Add(this.bl_search);
             this.Controls.Add(this.tl_search);
-            this.Controls.Add(this.dl_lecturer);
+            this.Controls.Add(this.dl_lecture);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ViewLectureDetails";
             this.Text = "ViewLectureDetails";
-            ((System.ComponentModel.ISupportInitialize)(this.dl_lecturer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dl_lecture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -152,7 +152,7 @@
         private System.Windows.Forms.Button bl_update;
         private System.Windows.Forms.Button bl_search;
         private System.Windows.Forms.TextBox tl_search;
-        private System.Windows.Forms.DataGridView dl_lecturer;
+        private System.Windows.Forms.DataGridView dl_lecture;
         private System.Windows.Forms.Label label1;
     }
 }

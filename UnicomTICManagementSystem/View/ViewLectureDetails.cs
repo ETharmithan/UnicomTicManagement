@@ -28,8 +28,8 @@ namespace UnicomTICManagementSystem.View
             {
                 List<Lecture> lecturerList = lectureController.GetLecturer(lectureId);
                 lecturers = lectureController.GetLecturer(lectureId);
-                dl_lecturer.DataSource = lecturers;
-                dl_lecturer.DataSource = lecturerList;
+                dl_lecture.DataSource = lecturers;
+                dl_lecture.DataSource = lecturerList;
             }
             else
             {
@@ -39,7 +39,7 @@ namespace UnicomTICManagementSystem.View
 
         private void bl_update_Click(object sender, EventArgs e)
         {
-            foreach (DataGridViewRow row in dl_lecturer.Rows)
+            foreach (DataGridViewRow row in dl_lecture.Rows)
             {
                 if (row.IsNewRow) continue;
 
@@ -71,15 +71,15 @@ namespace UnicomTICManagementSystem.View
 
         private void bl_delete_Click(object sender, EventArgs e)
         {
-            int selectedId = Convert.ToInt32(dl_lecturer.SelectedRows[0].Cells["ID"].Value);
+            int selectedId = Convert.ToInt32(dl_lecture.SelectedRows[0].Cells["ID"].Value);
 
             var lecturer = lecturers.FirstOrDefault(le => le.Id == selectedId);
             if (lecturer != null)
             {
                 lectureController.DeleteLecturer(lecturer);
                 lecturers.Remove(lecturer);
-                dl_lecturer.DataSource = null;
-                dl_lecturer.DataSource = lecturers;
+                dl_lecture.DataSource = null;
+                dl_lecture.DataSource = lecturers;
 
                 MessageBox.Show("The selected staff has been removed.");
             }

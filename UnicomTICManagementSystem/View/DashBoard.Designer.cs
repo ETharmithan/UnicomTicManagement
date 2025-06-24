@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.b_updateusers = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.b_exammark = new System.Windows.Forms.Button();
             this.b_education = new System.Windows.Forms.Button();
@@ -46,6 +47,7 @@
             this.panel1.AccessibleRole = System.Windows.Forms.AccessibleRole.ScrollBar;
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel1.Controls.Add(this.b_updateusers);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.b_exammark);
             this.panel1.Controls.Add(this.b_education);
@@ -58,9 +60,19 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // b_updateusers
+            // 
+            this.b_updateusers.Location = new System.Drawing.Point(27, 179);
+            this.b_updateusers.Name = "b_updateusers";
+            this.b_updateusers.Size = new System.Drawing.Size(179, 49);
+            this.b_updateusers.TabIndex = 4;
+            this.b_updateusers.Text = "Update Users";
+            this.b_updateusers.UseVisualStyleBackColor = true;
+            this.b_updateusers.Click += new System.EventHandler(this.b_updateusers_Click);
+            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(33, 557);
+            this.button1.Location = new System.Drawing.Point(27, 260);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(179, 49);
             this.button1.TabIndex = 3;
@@ -70,7 +82,7 @@
             // 
             // b_exammark
             // 
-            this.b_exammark.Location = new System.Drawing.Point(33, 612);
+            this.b_exammark.Location = new System.Drawing.Point(27, 340);
             this.b_exammark.Name = "b_exammark";
             this.b_exammark.Size = new System.Drawing.Size(179, 49);
             this.b_exammark.TabIndex = 2;
@@ -80,7 +92,7 @@
             // 
             // b_education
             // 
-            this.b_education.Location = new System.Drawing.Point(33, 667);
+            this.b_education.Location = new System.Drawing.Point(27, 434);
             this.b_education.Name = "b_education";
             this.b_education.Size = new System.Drawing.Size(179, 49);
             this.b_education.TabIndex = 1;
@@ -90,7 +102,7 @@
             // 
             // bd_cUser
             // 
-            this.bd_cUser.Location = new System.Drawing.Point(33, 722);
+            this.bd_cUser.Location = new System.Drawing.Point(27, 529);
             this.bd_cUser.Name = "bd_cUser";
             this.bd_cUser.Size = new System.Drawing.Size(179, 49);
             this.bd_cUser.TabIndex = 0;
@@ -162,5 +174,6 @@
         private System.Windows.Forms.Button b_education;
         private System.Windows.Forms.Button b_exammark;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button b_updateusers;
     }
 }

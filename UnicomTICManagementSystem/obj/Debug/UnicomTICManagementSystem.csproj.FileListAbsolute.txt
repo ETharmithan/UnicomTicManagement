@@ -475,3 +475,6 @@ D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagement
 D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.CreateUser.resources
 D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.CreateEducation.resources
 D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ExamMark.resources
+D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewAdmin.resources
+D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.UpdateUsers.resources
+D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.DashboardForm1.resources

@@ -12,10 +12,6 @@ namespace UnicomTICManagementSystem.View
 {
     public partial class DashBoardForm : Form
     {
-        public DashBoardForm()
-        {
-            InitializeComponent();
-        }
         public void LoadForm(object formobject)
         {
             if (this.panel_Main.Controls.Count > 0)
@@ -28,6 +24,11 @@ namespace UnicomTICManagementSystem.View
             form.Dock = DockStyle.Fill;
             this.panel_Main.Controls.Add(form);
             form.Show();
+        }
+        public DashBoardForm()
+        {
+            InitializeComponent();
+            LoadForm(new DashboardForm1());
         }
 
         private void bd_cUser_Click(object sender, EventArgs e)
@@ -54,6 +55,10 @@ namespace UnicomTICManagementSystem.View
             //RoomRegister roomRegister = new RoomRegister();
             //roomRegister.ShowDialog();
             LoadForm(new RoomRegister());
+        }
+        private void b_updateusers_Click(object sender, EventArgs e)
+        {
+            LoadForm(new UpdateUsers(this));
         }
         private void DashBoard_Load(object sender, EventArgs e)
         {

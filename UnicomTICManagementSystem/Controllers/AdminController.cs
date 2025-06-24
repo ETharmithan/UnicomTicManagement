@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SQLite;
 using System.Linq;
 using System.Text;
@@ -101,6 +102,100 @@ namespace UnicomTICManagementSystem.Controllers
             {
                 // If any field is missing, show validation message
                 MessageBox.Show("Complete all admin information.");
+            }
+        }
+        public List<Admin> Getadmin(int adminid)
+        {
+            List<Admin> admins = new List<Admin>();
+
+            using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
+            {
+                string adminQuery = "SELECT * FROM Admins WHERE ID = @adminId;";
+                SQLiteDataAdapter adapter = new SQLiteDataAdapter(adminQuery, connect);
+                adapter.SelectCommand.Parameters.AddWithValue("@adminId", adminid);
+
+                DataTable datatable = new DataTable();
+                adapter.Fill(datatable);
+                // Map each row from the data table to a Lecture object
+                foreach (DataRow row in datatable.Rows)
+                {
+                    Admin admin = new Admin
+                    {
+                        Id = Convert.ToInt32(row["Id"]),
+                        Firstname = row["FirstName"].ToString(),
+                        Lastname = row["LastName"].ToString(),
+                        NIC = row["NIC"].ToString(),
+                        Gmail = row["Gmail"].ToString(),
+                        PhoneNumber = row["PhoneNumber"].ToString(),
+                        Address = row["Address"].ToString(),
+                        Gender = row["Gender"].ToString(),
+                    };
+                    admins.Add(admin);
+                }
+            }
+
+            return admins;
+        }
+        public void DeleteAdmin(Admin admin)
+        {
+            using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
+            {
+
+                using (var transaction = connect.BeginTransaction())
+                {
+                    try
+                    {
+
+                        string deleteAdminQuery = "DELETE FROM Admins WHERE Id = @Id";
+                        SQLiteCommand deleteAdminCmd = new SQLiteCommand(deleteAdminQuery, connect);
+                        deleteAdminCmd.Parameters.AddWithValue("@Id", admin.Id);
+                        deleteAdminCmd.ExecuteNonQuery();
+
+
+                        string deleteUserQuery = "DELETE FROM Users WHERE Id = @UserId";
+                        SQLiteCommand deleteUserCmd = new SQLiteCommand(deleteUserQuery, connect);
+                        deleteUserCmd.Parameters.AddWithValue("@UserId", admin.UsersId);
+                        deleteUserCmd.ExecuteNonQuery();
+
+
+                        transaction.Commit();
+
+                        MessageBox.Show("Admin and associated user deleted successfully.");
+                    }
+                    catch (Exception ex)
+                    {
+
+                        transaction.Rollback();
+                        MessageBox.Show("Error while deleting: " + ex.Message);
+                    }
+                }
+            }
+        }
+        public void UpdateAdminInDatabase(Admin admin)
+        {
+            using (var connect = DatabaseManager.DatabaseConnect())
+            {
+                string updateQuery = @"UPDATE Admins SET
+                                        FirstName=@FirstName, LastName=@LastName, Gender=@Gender,
+                                        NIC=@NIC, Gmail=@Gmail, PhoneNumber=@PhoneNumber,
+                                        Address=@Address,
+                                       WHERE Id=@Id";
+
+                using (var command = new SQLiteCommand(updateQuery, connect))
+                {
+                    // Set all parameters for update
+                    command.Parameters.AddWithValue("@FirstName", admin.Firstname);
+                    command.Parameters.AddWithValue("@LastName", admin.Lastname);
+                    command.Parameters.AddWithValue("@Gender", admin.Gender);
+                    command.Parameters.AddWithValue("@NIC", admin.NIC);
+                    command.Parameters.AddWithValue("@Gmail", admin.Gmail);
+                    command.Parameters.AddWithValue("@PhoneNumber", admin.PhoneNumber);
+                    command.Parameters.AddWithValue("@Address", admin.Address);
+                    command.Parameters.AddWithValue("@Id", admin.Id);
+
+                    // Execute the update command
+                    command.ExecuteNonQuery();
+                }
             }
         }
     }

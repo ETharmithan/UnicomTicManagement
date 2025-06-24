@@ -134,6 +134,12 @@
     <Compile Include="View\DashBoard.Designer.cs">
       <DependentUpon>DashBoard.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\DashboardForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DashboardForm1.Designer.cs">
+      <DependentUpon>DashboardForm1.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\DepartmentRegister.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,6 +194,12 @@
     <Compile Include="View\SubjectRegisterForm.Designer.cs">
       <DependentUpon>SubjectRegisterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\UpdateUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UpdateUsers.Designer.cs">
+      <DependentUpon>UpdateUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\UserRegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -199,6 +211,12 @@
     </Compile>
     <Compile Include="View\UserSigninForm.Designer.cs">
       <DependentUpon>UserSigninForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewAdmin.Designer.cs">
+      <DependentUpon>ViewAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="View\ViewExam.cs">
       <SubType>Form</SubType>
@@ -244,6 +262,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="View\AdminRegisterForm.resx">
       <DependentUpon>AdminRegisterForm.cs</DependentUpon>
@@ -259,6 +278,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\DashBoard.resx">
       <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DashboardForm1.resx">
+      <DependentUpon>DashboardForm1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\DepartmentRegister.resx">
       <DependentUpon>DepartmentRegister.cs</DependentUpon>
@@ -287,11 +309,17 @@
     <EmbeddedResource Include="View\SubjectRegisterForm.resx">
       <DependentUpon>SubjectRegisterForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\UpdateUsers.resx">
+      <DependentUpon>UpdateUsers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\UserRegisterForm.resx">
       <DependentUpon>UserRegisterForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\UserSigninForm.resx">
       <DependentUpon>UserSigninForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewAdmin.resx">
+      <DependentUpon>ViewAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\ViewExam.resx">
       <DependentUpon>ViewExam.cs</DependentUpon>
@@ -326,7 +354,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\icon-1-min.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
