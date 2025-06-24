@@ -15,7 +15,7 @@ namespace UnicomTICManagementSystem.View
 {
     public partial class StudentRegisterForm1 : Form
     {
-        Student student = new Student();
+        Models.Student student = new Models.Student();
         StudentController studentController = new StudentController();
         public StudentRegisterForm1()
         {
@@ -149,9 +149,15 @@ namespace UnicomTICManagementSystem.View
             if (studentController.CheckParentsPhoneNumber(student) == false) { lst_emc.Text = "Enter Your Parents PhoneNumber"; }
             student.DepartmentsID = Convert.ToInt32(cst_department.SelectedValue);
             student.CoursesID = Convert.ToInt32(cst_Course.SelectedValue);
-            
-            studentController.CreateStudent(student);
-            ClearField();
+
+            // Register student + subject mapping
+            int selectedCourseId = (int)cst_Course.SelectedValue;
+            int studentId = studentController.RegisterStudentWithSubjects(student, selectedCourseId);
+
+            if (studentId > 0)
+            {
+                ClearField();
+            }
         }
 
         private void LoadDepartments()

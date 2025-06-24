@@ -48,7 +48,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(489, 9);
+            this.label1.Location = new System.Drawing.Point(258, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(631, 53);
             this.label1.TabIndex = 0;
@@ -61,14 +61,14 @@
             this.dacs_view.Name = "dacs_view";
             this.dacs_view.RowHeadersWidth = 51;
             this.dacs_view.RowTemplate.Height = 24;
-            this.dacs_view.Size = new System.Drawing.Size(1475, 358);
+            this.dacs_view.Size = new System.Drawing.Size(1076, 358);
             this.dacs_view.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(569, 109);
+            this.label2.Location = new System.Drawing.Point(338, 111);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 20);
             this.label2.TabIndex = 2;
@@ -78,7 +78,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(569, 169);
+            this.label3.Location = new System.Drawing.Point(338, 171);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 20);
             this.label3.TabIndex = 3;
@@ -88,7 +88,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(569, 233);
+            this.label4.Location = new System.Drawing.Point(338, 235);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(67, 20);
             this.label4.TabIndex = 4;
@@ -98,7 +98,7 @@
             // 
             this.ca_department.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ca_department.FormattingEnabled = true;
-            this.ca_department.Location = new System.Drawing.Point(681, 100);
+            this.ca_department.Location = new System.Drawing.Point(450, 102);
             this.ca_department.Name = "ca_department";
             this.ca_department.Size = new System.Drawing.Size(250, 28);
             this.ca_department.TabIndex = 5;
@@ -108,7 +108,7 @@
             // 
             this.ca_course.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ca_course.FormattingEnabled = true;
-            this.ca_course.Location = new System.Drawing.Point(681, 166);
+            this.ca_course.Location = new System.Drawing.Point(450, 168);
             this.ca_course.Name = "ca_course";
             this.ca_course.Size = new System.Drawing.Size(250, 28);
             this.ca_course.TabIndex = 6;
@@ -118,7 +118,7 @@
             // 
             this.ca_subject.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ca_subject.FormattingEnabled = true;
-            this.ca_subject.Location = new System.Drawing.Point(681, 230);
+            this.ca_subject.Location = new System.Drawing.Point(450, 232);
             this.ca_subject.Name = "ca_subject";
             this.ca_subject.Size = new System.Drawing.Size(250, 28);
             this.ca_subject.TabIndex = 7;
@@ -127,7 +127,7 @@
             // ba_search
             // 
             this.ba_search.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ba_search.Location = new System.Drawing.Point(1007, 85);
+            this.ba_search.Location = new System.Drawing.Point(776, 87);
             this.ba_search.Name = "ba_search";
             this.ba_search.Size = new System.Drawing.Size(97, 35);
             this.ba_search.TabIndex = 8;
@@ -138,7 +138,7 @@
             // ba_update
             // 
             this.ba_update.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ba_update.Location = new System.Drawing.Point(1007, 139);
+            this.ba_update.Location = new System.Drawing.Point(776, 141);
             this.ba_update.Name = "ba_update";
             this.ba_update.Size = new System.Drawing.Size(97, 35);
             this.ba_update.TabIndex = 9;
@@ -149,7 +149,7 @@
             // ba_delete
             // 
             this.ba_delete.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ba_delete.Location = new System.Drawing.Point(1007, 193);
+            this.ba_delete.Location = new System.Drawing.Point(776, 195);
             this.ba_delete.Name = "ba_delete";
             this.ba_delete.Size = new System.Drawing.Size(97, 35);
             this.ba_delete.TabIndex = 10;
@@ -160,7 +160,7 @@
             // ba_back
             // 
             this.ba_back.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ba_back.Location = new System.Drawing.Point(1007, 243);
+            this.ba_back.Location = new System.Drawing.Point(776, 245);
             this.ba_back.Name = "ba_back";
             this.ba_back.Size = new System.Drawing.Size(97, 35);
             this.ba_back.TabIndex = 11;
@@ -172,9 +172,9 @@
             // 
             this.ba_adddepartment.AccessibleRole = System.Windows.Forms.AccessibleRole.ScrollBar;
             this.ba_adddepartment.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ba_adddepartment.Location = new System.Drawing.Point(1303, 275);
+            this.ba_adddepartment.Location = new System.Drawing.Point(895, 275);
             this.ba_adddepartment.Name = "ba_adddepartment";
-            this.ba_adddepartment.Size = new System.Drawing.Size(245, 45);
+            this.ba_adddepartment.Size = new System.Drawing.Size(254, 45);
             this.ba_adddepartment.TabIndex = 12;
             this.ba_adddepartment.Text = "Add ";
             this.ba_adddepartment.UseVisualStyleBackColor = true;
@@ -185,7 +185,7 @@
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.ScrollBar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1620, 719);
+            this.ClientSize = new System.Drawing.Size(1215, 708);
             this.Controls.Add(this.ba_adddepartment);
             this.Controls.Add(this.ba_back);
             this.Controls.Add(this.ba_delete);
@@ -199,6 +199,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dacs_view);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ViewSubjects";
             this.Text = "ViewSubjects";
             this.Load += new System.EventHandler(this.ViewSubjects_Load);

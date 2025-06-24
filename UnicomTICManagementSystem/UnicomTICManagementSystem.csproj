@@ -116,6 +116,18 @@
     <Compile Include="View\CourseRegisterForm.Designer.cs">
       <DependentUpon>CourseRegisterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\CreateEducation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CreateEducation.Designer.cs">
+      <DependentUpon>CreateEducation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CreateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CreateUser.Designer.cs">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\DashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +139,12 @@
     </Compile>
     <Compile Include="View\DepartmentRegister.Designer.cs">
       <DependentUpon>DepartmentRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ExamMark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ExamMark.Designer.cs">
+      <DependentUpon>ExamMark.cs</DependentUpon>
     </Compile>
     <Compile Include="View\ExamRegisterForm.cs">
       <SubType>Form</SubType>
@@ -233,11 +251,20 @@
     <EmbeddedResource Include="View\CourseRegisterForm.resx">
       <DependentUpon>CourseRegisterForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\CreateEducation.resx">
+      <DependentUpon>CreateEducation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CreateUser.resx">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\DashBoard.resx">
       <DependentUpon>DashBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\DepartmentRegister.resx">
       <DependentUpon>DepartmentRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ExamMark.resx">
+      <DependentUpon>ExamMark.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\ExamRegisterForm.resx">
       <DependentUpon>ExamRegisterForm.cs</DependentUpon>

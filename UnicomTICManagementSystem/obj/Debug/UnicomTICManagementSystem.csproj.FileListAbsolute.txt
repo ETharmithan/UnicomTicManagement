@@ -472,3 +472,6 @@ D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagement
 D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewStudentDetails.resources
 D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewStaffDetails.resources
 D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ViewLectureDetails.resources
+D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.CreateUser.resources
+D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.CreateEducation.resources
+D:\Tharmi\UnicomTICManagementSystem - 12\UnicomTicManagement\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.ExamMark.resources

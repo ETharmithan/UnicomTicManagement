@@ -35,13 +35,14 @@
             this.bsta_search = new System.Windows.Forms.Button();
             this.tsta_search = new System.Windows.Forms.TextBox();
             this.dsta_staff = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dsta_staff)).BeginInit();
             this.SuspendLayout();
             // 
             // bsta_back
             // 
             this.bsta_back.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bsta_back.Location = new System.Drawing.Point(554, 203);
+            this.bsta_back.Location = new System.Drawing.Point(412, 217);
             this.bsta_back.Name = "bsta_back";
             this.bsta_back.Size = new System.Drawing.Size(110, 35);
             this.bsta_back.TabIndex = 14;
@@ -52,7 +53,7 @@
             // bsta_addstaff
             // 
             this.bsta_addstaff.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bsta_addstaff.Location = new System.Drawing.Point(1234, 29);
+            this.bsta_addstaff.Location = new System.Drawing.Point(983, 12);
             this.bsta_addstaff.Name = "bsta_addstaff";
             this.bsta_addstaff.Size = new System.Drawing.Size(201, 39);
             this.bsta_addstaff.TabIndex = 13;
@@ -63,7 +64,7 @@
             // bsta_delete
             // 
             this.bsta_delete.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bsta_delete.Location = new System.Drawing.Point(840, 203);
+            this.bsta_delete.Location = new System.Drawing.Point(698, 217);
             this.bsta_delete.Name = "bsta_delete";
             this.bsta_delete.Size = new System.Drawing.Size(110, 35);
             this.bsta_delete.TabIndex = 12;
@@ -74,7 +75,7 @@
             // bsta_update
             // 
             this.bsta_update.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bsta_update.Location = new System.Drawing.Point(698, 203);
+            this.bsta_update.Location = new System.Drawing.Point(556, 217);
             this.bsta_update.Name = "bsta_update";
             this.bsta_update.Size = new System.Drawing.Size(110, 35);
             this.bsta_update.TabIndex = 11;
@@ -85,7 +86,7 @@
             // bsta_search
             // 
             this.bsta_search.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bsta_search.Location = new System.Drawing.Point(922, 114);
+            this.bsta_search.Location = new System.Drawing.Point(780, 128);
             this.bsta_search.Name = "bsta_search";
             this.bsta_search.Size = new System.Drawing.Size(97, 34);
             this.bsta_search.TabIndex = 10;
@@ -96,7 +97,7 @@
             // tsta_search
             // 
             this.tsta_search.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsta_search.Location = new System.Drawing.Point(579, 119);
+            this.tsta_search.Location = new System.Drawing.Point(437, 133);
             this.tsta_search.Name = "tsta_search";
             this.tsta_search.Size = new System.Drawing.Size(299, 27);
             this.tsta_search.TabIndex = 9;
@@ -108,14 +109,25 @@
             this.dsta_staff.Name = "dsta_staff";
             this.dsta_staff.RowHeadersWidth = 51;
             this.dsta_staff.RowTemplate.Height = 24;
-            this.dsta_staff.Size = new System.Drawing.Size(1538, 392);
+            this.dsta_staff.Size = new System.Drawing.Size(1129, 392);
             this.dsta_staff.TabIndex = 8;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(497, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(272, 53);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Staff Details";
             // 
             // ViewStaffDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1620, 719);
+            this.ClientSize = new System.Drawing.Size(1215, 708);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.bsta_back);
             this.Controls.Add(this.bsta_addstaff);
             this.Controls.Add(this.bsta_delete);
@@ -123,6 +135,7 @@
             this.Controls.Add(this.bsta_search);
             this.Controls.Add(this.tsta_search);
             this.Controls.Add(this.dsta_staff);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ViewStaffDetails";
             this.Text = "ViewStaffDetails";
             ((System.ComponentModel.ISupportInitialize)(this.dsta_staff)).EndInit();
@@ -140,5 +153,6 @@
         private System.Windows.Forms.Button bsta_search;
         private System.Windows.Forms.TextBox tsta_search;
         private System.Windows.Forms.DataGridView dsta_staff;
+        private System.Windows.Forms.Label label1;
     }
 }

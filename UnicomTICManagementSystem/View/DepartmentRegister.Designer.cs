@@ -45,7 +45,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(507, 39);
+            this.label1.Location = new System.Drawing.Point(281, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(727, 53);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(549, 153);
+            this.label2.Location = new System.Drawing.Point(323, 157);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 20);
             this.label2.TabIndex = 1;
@@ -65,7 +65,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(549, 218);
+            this.label3.Location = new System.Drawing.Point(323, 222);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(98, 20);
             this.label3.TabIndex = 2;
@@ -74,7 +74,7 @@
             // td_name
             // 
             this.td_name.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.td_name.Location = new System.Drawing.Point(731, 147);
+            this.td_name.Location = new System.Drawing.Point(505, 151);
             this.td_name.Name = "td_name";
             this.td_name.Size = new System.Drawing.Size(283, 28);
             this.td_name.TabIndex = 3;
@@ -83,7 +83,7 @@
             // td_description
             // 
             this.td_description.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.td_description.Location = new System.Drawing.Point(731, 218);
+            this.td_description.Location = new System.Drawing.Point(505, 222);
             this.td_description.Name = "td_description";
             this.td_description.Size = new System.Drawing.Size(283, 28);
             this.td_description.TabIndex = 4;
@@ -92,7 +92,7 @@
             // bd_back
             // 
             this.bd_back.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bd_back.Location = new System.Drawing.Point(552, 303);
+            this.bd_back.Location = new System.Drawing.Point(326, 307);
             this.bd_back.Name = "bd_back";
             this.bd_back.Size = new System.Drawing.Size(117, 42);
             this.bd_back.TabIndex = 5;
@@ -103,7 +103,7 @@
             // bd_clear
             // 
             this.bd_clear.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bd_clear.Location = new System.Drawing.Point(731, 303);
+            this.bd_clear.Location = new System.Drawing.Point(505, 307);
             this.bd_clear.Name = "bd_clear";
             this.bd_clear.Size = new System.Drawing.Size(117, 42);
             this.bd_clear.TabIndex = 6;
@@ -114,7 +114,7 @@
             // bd_add
             // 
             this.bd_add.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bd_add.Location = new System.Drawing.Point(897, 303);
+            this.bd_add.Location = new System.Drawing.Point(671, 307);
             this.bd_add.Name = "bd_add";
             this.bd_add.Size = new System.Drawing.Size(117, 42);
             this.bd_add.TabIndex = 7;
@@ -126,7 +126,7 @@
             // 
             this.ld_name.AutoSize = true;
             this.ld_name.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ld_name.Location = new System.Drawing.Point(1121, 152);
+            this.ld_name.Location = new System.Drawing.Point(895, 156);
             this.ld_name.Name = "ld_name";
             this.ld_name.Size = new System.Drawing.Size(0, 20);
             this.ld_name.TabIndex = 8;
@@ -135,7 +135,7 @@
             // 
             this.ld_description.AutoSize = true;
             this.ld_description.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ld_description.Location = new System.Drawing.Point(1121, 224);
+            this.ld_description.Location = new System.Drawing.Point(895, 228);
             this.ld_description.Name = "ld_description";
             this.ld_description.Size = new System.Drawing.Size(0, 20);
             this.ld_description.TabIndex = 9;
@@ -143,7 +143,7 @@
             // bd_addtocourse
             // 
             this.bd_addtocourse.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bd_addtocourse.Location = new System.Drawing.Point(1337, 643);
+            this.bd_addtocourse.Location = new System.Drawing.Point(924, 644);
             this.bd_addtocourse.Name = "bd_addtocourse";
             this.bd_addtocourse.Size = new System.Drawing.Size(237, 38);
             this.bd_addtocourse.TabIndex = 18;
@@ -155,7 +155,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1620, 719);
+            this.ClientSize = new System.Drawing.Size(1215, 708);
             this.Controls.Add(this.bd_addtocourse);
             this.Controls.Add(this.ld_description);
             this.Controls.Add(this.ld_name);
@@ -167,6 +167,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DepartmentRegister";
             this.Text = "DepartmentRegister";
             this.ResumeLayout(false);

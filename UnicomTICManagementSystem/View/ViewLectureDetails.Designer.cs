@@ -35,13 +35,14 @@
             this.bl_search = new System.Windows.Forms.Button();
             this.tl_search = new System.Windows.Forms.TextBox();
             this.dl_lecturer = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dl_lecturer)).BeginInit();
             this.SuspendLayout();
             // 
             // bl_back
             // 
             this.bl_back.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bl_back.Location = new System.Drawing.Point(554, 203);
+            this.bl_back.Location = new System.Drawing.Point(412, 219);
             this.bl_back.Name = "bl_back";
             this.bl_back.Size = new System.Drawing.Size(110, 35);
             this.bl_back.TabIndex = 21;
@@ -52,7 +53,7 @@
             // bl_addregister
             // 
             this.bl_addregister.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bl_addregister.Location = new System.Drawing.Point(1234, 29);
+            this.bl_addregister.Location = new System.Drawing.Point(979, 21);
             this.bl_addregister.Name = "bl_addregister";
             this.bl_addregister.Size = new System.Drawing.Size(201, 39);
             this.bl_addregister.TabIndex = 20;
@@ -63,7 +64,7 @@
             // bl_delete
             // 
             this.bl_delete.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bl_delete.Location = new System.Drawing.Point(840, 203);
+            this.bl_delete.Location = new System.Drawing.Point(698, 219);
             this.bl_delete.Name = "bl_delete";
             this.bl_delete.Size = new System.Drawing.Size(110, 35);
             this.bl_delete.TabIndex = 19;
@@ -74,7 +75,7 @@
             // bl_update
             // 
             this.bl_update.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bl_update.Location = new System.Drawing.Point(698, 203);
+            this.bl_update.Location = new System.Drawing.Point(556, 219);
             this.bl_update.Name = "bl_update";
             this.bl_update.Size = new System.Drawing.Size(110, 35);
             this.bl_update.TabIndex = 18;
@@ -85,7 +86,7 @@
             // bl_search
             // 
             this.bl_search.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bl_search.Location = new System.Drawing.Point(922, 114);
+            this.bl_search.Location = new System.Drawing.Point(780, 130);
             this.bl_search.Name = "bl_search";
             this.bl_search.Size = new System.Drawing.Size(97, 34);
             this.bl_search.TabIndex = 17;
@@ -96,7 +97,7 @@
             // tl_search
             // 
             this.tl_search.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tl_search.Location = new System.Drawing.Point(579, 119);
+            this.tl_search.Location = new System.Drawing.Point(437, 135);
             this.tl_search.Name = "tl_search";
             this.tl_search.Size = new System.Drawing.Size(299, 27);
             this.tl_search.TabIndex = 16;
@@ -108,14 +109,25 @@
             this.dl_lecturer.Name = "dl_lecturer";
             this.dl_lecturer.RowHeadersWidth = 51;
             this.dl_lecturer.RowTemplate.Height = 24;
-            this.dl_lecturer.Size = new System.Drawing.Size(1538, 392);
+            this.dl_lecturer.Size = new System.Drawing.Size(1129, 392);
             this.dl_lecturer.TabIndex = 15;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(458, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(350, 53);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Lecturer Details";
             // 
             // ViewLectureDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1620, 719);
+            this.ClientSize = new System.Drawing.Size(1215, 708);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.bl_back);
             this.Controls.Add(this.bl_addregister);
             this.Controls.Add(this.bl_delete);
@@ -123,6 +135,7 @@
             this.Controls.Add(this.bl_search);
             this.Controls.Add(this.tl_search);
             this.Controls.Add(this.dl_lecturer);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ViewLectureDetails";
             this.Text = "ViewLectureDetails";
             ((System.ComponentModel.ISupportInitialize)(this.dl_lecturer)).EndInit();
@@ -140,5 +153,6 @@
         private System.Windows.Forms.Button bl_search;
         private System.Windows.Forms.TextBox tl_search;
         private System.Windows.Forms.DataGridView dl_lecturer;
+        private System.Windows.Forms.Label label1;
     }
 }

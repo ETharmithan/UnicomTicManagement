@@ -70,6 +70,31 @@ namespace UnicomTICManagementSystem.Controllers
                 MessageBox.Show("Please fill in all required exam details.");
             }
         }
+        public List<Exam> GetExamsBySubjectId(int subjectId)
+        {
+            var exams = new List<Exam>();
+            using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
+            {
+                string query = "SELECT * FROM Exams WHERE SubjectsID = @SubjectsID";
+                using (SQLiteCommand command = new SQLiteCommand(query, connect))
+                {
+                    command.Parameters.AddWithValue("@SubjectsID", subjectId);
+                    using (SQLiteDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            exams.Add(new Exam
+                            {
+                                ID = Convert.ToInt32(reader["ID"]),
+                                ExamName = reader["ExamName"].ToString(),
+                                SubjectsID = Convert.ToInt32(reader["SubjectsID"])
+                            });
+                        }
+                    }
+                }
+            }
+            return exams;
+        }
 
     }
 }

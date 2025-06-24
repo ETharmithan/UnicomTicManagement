@@ -60,7 +60,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(530, 29);
+            this.label1.Location = new System.Drawing.Point(337, 26);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(562, 53);
@@ -71,7 +71,7 @@
             // 
             this.la_firstname.AutoSize = true;
             this.la_firstname.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.la_firstname.Location = new System.Drawing.Point(1019, 137);
+            this.la_firstname.Location = new System.Drawing.Point(826, 134);
             this.la_firstname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.la_firstname.Name = "la_firstname";
             this.la_firstname.Size = new System.Drawing.Size(0, 19);
@@ -81,7 +81,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(535, 376);
+            this.label3.Location = new System.Drawing.Point(342, 373);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 20);
@@ -92,7 +92,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(535, 227);
+            this.label4.Location = new System.Drawing.Point(342, 224);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(70, 20);
@@ -103,7 +103,7 @@
             // 
             this.la_mobile.AutoSize = true;
             this.la_mobile.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.la_mobile.Location = new System.Drawing.Point(1019, 326);
+            this.la_mobile.Location = new System.Drawing.Point(826, 323);
             this.la_mobile.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.la_mobile.Name = "la_mobile";
             this.la_mobile.Size = new System.Drawing.Size(0, 19);
@@ -113,7 +113,7 @@
             // 
             this.la_gmail.AutoSize = true;
             this.la_gmail.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.la_gmail.Location = new System.Drawing.Point(1019, 267);
+            this.la_gmail.Location = new System.Drawing.Point(826, 264);
             this.la_gmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.la_gmail.Name = "la_gmail";
             this.la_gmail.Size = new System.Drawing.Size(0, 19);
@@ -123,7 +123,7 @@
             // 
             this.la_nic.AutoSize = true;
             this.la_nic.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.la_nic.Location = new System.Drawing.Point(1019, 227);
+            this.la_nic.Location = new System.Drawing.Point(826, 224);
             this.la_nic.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.la_nic.Name = "la_nic";
             this.la_nic.Size = new System.Drawing.Size(0, 19);
@@ -133,7 +133,7 @@
             // 
             this.la_address.AutoSize = true;
             this.la_address.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.la_address.Location = new System.Drawing.Point(1019, 375);
+            this.la_address.Location = new System.Drawing.Point(826, 372);
             this.la_address.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.la_address.Name = "la_address";
             this.la_address.Size = new System.Drawing.Size(0, 19);
@@ -143,7 +143,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(535, 276);
+            this.label10.Location = new System.Drawing.Point(342, 273);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(65, 20);
@@ -154,7 +154,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(535, 183);
+            this.label11.Location = new System.Drawing.Point(342, 180);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(93, 20);
@@ -165,7 +165,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(535, 130);
+            this.label12.Location = new System.Drawing.Point(342, 127);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(94, 20);
@@ -176,7 +176,7 @@
             // 
             this.la_lastname.AutoSize = true;
             this.la_lastname.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.la_lastname.Location = new System.Drawing.Point(1019, 182);
+            this.la_lastname.Location = new System.Drawing.Point(826, 179);
             this.la_lastname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.la_lastname.Name = "la_lastname";
             this.la_lastname.Size = new System.Drawing.Size(0, 19);
@@ -186,7 +186,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(535, 430);
+            this.label14.Location = new System.Drawing.Point(342, 427);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(66, 20);
@@ -197,7 +197,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(535, 327);
+            this.label15.Location = new System.Drawing.Point(342, 324);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(92, 20);
@@ -207,7 +207,7 @@
             // ta_firstname
             // 
             this.ta_firstname.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ta_firstname.Location = new System.Drawing.Point(675, 128);
+            this.ta_firstname.Location = new System.Drawing.Point(482, 125);
             this.ta_firstname.Margin = new System.Windows.Forms.Padding(4);
             this.ta_firstname.Name = "ta_firstname";
             this.ta_firstname.Size = new System.Drawing.Size(283, 28);
@@ -217,7 +217,7 @@
             // ta_address
             // 
             this.ta_address.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ta_address.Location = new System.Drawing.Point(675, 367);
+            this.ta_address.Location = new System.Drawing.Point(482, 364);
             this.ta_address.Margin = new System.Windows.Forms.Padding(4);
             this.ta_address.Name = "ta_address";
             this.ta_address.Size = new System.Drawing.Size(283, 28);
@@ -228,7 +228,7 @@
             // ta_mobile
             // 
             this.ta_mobile.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ta_mobile.Location = new System.Drawing.Point(675, 318);
+            this.ta_mobile.Location = new System.Drawing.Point(482, 315);
             this.ta_mobile.Margin = new System.Windows.Forms.Padding(4);
             this.ta_mobile.Name = "ta_mobile";
             this.ta_mobile.Size = new System.Drawing.Size(283, 28);
@@ -239,7 +239,7 @@
             // ta_gmail
             // 
             this.ta_gmail.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ta_gmail.Location = new System.Drawing.Point(675, 267);
+            this.ta_gmail.Location = new System.Drawing.Point(482, 264);
             this.ta_gmail.Margin = new System.Windows.Forms.Padding(4);
             this.ta_gmail.Name = "ta_gmail";
             this.ta_gmail.Size = new System.Drawing.Size(283, 28);
@@ -250,7 +250,7 @@
             // ta_nic
             // 
             this.ta_nic.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ta_nic.Location = new System.Drawing.Point(675, 227);
+            this.ta_nic.Location = new System.Drawing.Point(482, 224);
             this.ta_nic.Margin = new System.Windows.Forms.Padding(4);
             this.ta_nic.Name = "ta_nic";
             this.ta_nic.Size = new System.Drawing.Size(283, 28);
@@ -261,7 +261,7 @@
             // ta_lastname
             // 
             this.ta_lastname.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ta_lastname.Location = new System.Drawing.Point(675, 174);
+            this.ta_lastname.Location = new System.Drawing.Point(482, 171);
             this.ta_lastname.Margin = new System.Windows.Forms.Padding(4);
             this.ta_lastname.Name = "ta_lastname";
             this.ta_lastname.Size = new System.Drawing.Size(283, 28);
@@ -273,7 +273,7 @@
             // 
             this.ra_male.AutoSize = true;
             this.ra_male.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ra_male.Location = new System.Drawing.Point(675, 430);
+            this.ra_male.Location = new System.Drawing.Point(482, 427);
             this.ra_male.Margin = new System.Windows.Forms.Padding(4);
             this.ra_male.Name = "ra_male";
             this.ra_male.Size = new System.Drawing.Size(69, 24);
@@ -286,7 +286,7 @@
             // 
             this.ra_female.AutoSize = true;
             this.ra_female.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ra_female.Location = new System.Drawing.Point(846, 430);
+            this.ra_female.Location = new System.Drawing.Point(653, 427);
             this.ra_female.Margin = new System.Windows.Forms.Padding(4);
             this.ra_female.Name = "ra_female";
             this.ra_female.Size = new System.Drawing.Size(85, 24);
@@ -298,7 +298,7 @@
             // ba_back
             // 
             this.ba_back.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ba_back.Location = new System.Drawing.Point(539, 509);
+            this.ba_back.Location = new System.Drawing.Point(346, 506);
             this.ba_back.Margin = new System.Windows.Forms.Padding(4);
             this.ba_back.Name = "ba_back";
             this.ba_back.Size = new System.Drawing.Size(100, 28);
@@ -310,7 +310,7 @@
             // ba_clear
             // 
             this.ba_clear.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ba_clear.Location = new System.Drawing.Point(725, 509);
+            this.ba_clear.Location = new System.Drawing.Point(532, 506);
             this.ba_clear.Margin = new System.Windows.Forms.Padding(4);
             this.ba_clear.Name = "ba_clear";
             this.ba_clear.Size = new System.Drawing.Size(100, 28);
@@ -322,7 +322,7 @@
             // ba_Submit
             // 
             this.ba_Submit.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ba_Submit.Location = new System.Drawing.Point(931, 509);
+            this.ba_Submit.Location = new System.Drawing.Point(738, 506);
             this.ba_Submit.Margin = new System.Windows.Forms.Padding(4);
             this.ba_Submit.Name = "ba_Submit";
             this.ba_Submit.Size = new System.Drawing.Size(100, 28);
@@ -336,7 +336,7 @@
             this.la_gender.AutoSize = true;
             this.la_gender.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.la_gender.ForeColor = System.Drawing.Color.Red;
-            this.la_gender.Location = new System.Drawing.Point(1019, 426);
+            this.la_gender.Location = new System.Drawing.Point(826, 423);
             this.la_gender.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.la_gender.Name = "la_gender";
             this.la_gender.Size = new System.Drawing.Size(0, 22);
@@ -346,7 +346,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1620, 719);
+            this.ClientSize = new System.Drawing.Size(1215, 708);
             this.Controls.Add(this.ba_Submit);
             this.Controls.Add(this.ba_clear);
             this.Controls.Add(this.ba_back);
@@ -373,6 +373,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.la_firstname);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AdminRegisterForm";
             this.Text = "AdminRegisterForm";

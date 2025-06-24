@@ -21,13 +21,10 @@ namespace UnicomTICManagementSystem.Controllers
                 //Database Connect
                 using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
                 {
-                    //string userQuery = @"INSERT INTO 
-                    //                    Users(Username, Password, Gmail, Role) 
-                    //                    VALUES(@username, @password,@gmail,@role);";
                     string userQuery = @"INSERT INTO 
-                                    Users(Username, Password, Gmail) 
-                                    VALUES(@username, @password,@gmail);
-                                    SELECT last_insert_rowid(); ";
+                                        Users(Username, Password, Gmail, Role) 
+                                        VALUES(@username, @password,@gmail,@role);";
+                    
                     try
                     {
                         //Excute the Database
@@ -36,7 +33,7 @@ namespace UnicomTICManagementSystem.Controllers
                             command.Parameters.AddWithValue("@username", user.UserName);
                             command.Parameters.AddWithValue("@password", user.Password);
                             command.Parameters.AddWithValue("@gmail", user.Gmail);
-                            //command.Parameters.AddWithValue("@role", user.Role);
+                            command.Parameters.AddWithValue("@role", user.Role);
                             int id = Convert.ToInt32(command.ExecuteScalar());
                             MessageBox.Show("User Registered Successfully.");
                             return id;

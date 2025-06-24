@@ -15,7 +15,7 @@ namespace UnicomTICManagementSystem.View
     public partial class ViewStudentDetails : Form
     {
         StudentController studentController = new StudentController();
-        private List<Student> students = new List<Student>();
+        private List<Models.Student> students = new List<Models.Student>();
 
         public ViewStudentDetails()
         {
@@ -31,7 +31,7 @@ namespace UnicomTICManagementSystem.View
         {
             if (int.TryParse(ts_search.Text, out int studentId))
             {
-                List<Student> studentList = studentController.GetStudent(studentId);
+                List<Models.Student> studentList = studentController.GetStudent(studentId);
                 students = studentController.GetStudent(studentId);
                 ds_student.DataSource = students;
                 ds_student.DataSource = studentList;
@@ -48,7 +48,7 @@ namespace UnicomTICManagementSystem.View
             {
                 if (row.IsNewRow) continue;
 
-                Student s = new Student
+                Models.Student s = new Models.Student
                 {
                     ID = Convert.ToInt32(row.Cells["ID"].Value),
                     FirstName = row.Cells["FirstName"].Value?.ToString(),

@@ -85,7 +85,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(621, 11);
+            this.label1.Location = new System.Drawing.Point(363, 22);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(543, 53);
@@ -107,7 +107,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(972, 100);
+            this.label3.Location = new System.Drawing.Point(673, 100);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 20);
@@ -140,7 +140,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(972, 161);
+            this.label6.Location = new System.Drawing.Point(673, 161);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(96, 20);
@@ -151,7 +151,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(971, 353);
+            this.label7.Location = new System.Drawing.Point(672, 353);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(120, 20);
@@ -162,7 +162,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(972, 278);
+            this.label8.Location = new System.Drawing.Point(673, 278);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(139, 20);
@@ -195,7 +195,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(972, 223);
+            this.label11.Location = new System.Drawing.Point(673, 223);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(70, 20);
@@ -246,7 +246,7 @@
             // ts_nic
             // 
             this.ts_nic.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ts_nic.Location = new System.Drawing.Point(1149, 215);
+            this.ts_nic.Location = new System.Drawing.Point(850, 215);
             this.ts_nic.Margin = new System.Windows.Forms.Padding(4);
             this.ts_nic.Name = "ts_nic";
             this.ts_nic.Size = new System.Drawing.Size(288, 28);
@@ -256,7 +256,7 @@
             // ts_nationality
             // 
             this.ts_nationality.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ts_nationality.Location = new System.Drawing.Point(1149, 153);
+            this.ts_nationality.Location = new System.Drawing.Point(850, 153);
             this.ts_nationality.Margin = new System.Windows.Forms.Padding(4);
             this.ts_nationality.Name = "ts_nationality";
             this.ts_nationality.Size = new System.Drawing.Size(288, 28);
@@ -266,7 +266,7 @@
             // ts_lastname
             // 
             this.ts_lastname.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ts_lastname.Location = new System.Drawing.Point(1149, 92);
+            this.ts_lastname.Location = new System.Drawing.Point(850, 92);
             this.ts_lastname.Margin = new System.Windows.Forms.Padding(4);
             this.ts_lastname.Name = "ts_lastname";
             this.ts_lastname.Size = new System.Drawing.Size(288, 28);
@@ -287,7 +287,7 @@
             // ts_mobile
             // 
             this.ts_mobile.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ts_mobile.Location = new System.Drawing.Point(1149, 275);
+            this.ts_mobile.Location = new System.Drawing.Point(850, 275);
             this.ts_mobile.Margin = new System.Windows.Forms.Padding(4);
             this.ts_mobile.Name = "ts_mobile";
             this.ts_mobile.Size = new System.Drawing.Size(288, 28);
@@ -309,7 +309,7 @@
             // bs_submit
             // 
             this.bs_submit.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bs_submit.Location = new System.Drawing.Point(1371, 647);
+            this.bs_submit.Location = new System.Drawing.Point(1072, 647);
             this.bs_submit.Margin = new System.Windows.Forms.Padding(4);
             this.bs_submit.Name = "bs_submit";
             this.bs_submit.Size = new System.Drawing.Size(100, 28);
@@ -321,7 +321,7 @@
             // bs_clear
             // 
             this.bs_clear.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bs_clear.Location = new System.Drawing.Point(1160, 647);
+            this.bs_clear.Location = new System.Drawing.Point(861, 647);
             this.bs_clear.Margin = new System.Windows.Forms.Padding(4);
             this.bs_clear.Name = "bs_clear";
             this.bs_clear.Size = new System.Drawing.Size(100, 28);
@@ -333,7 +333,7 @@
             // bs_back
             // 
             this.bs_back.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bs_back.Location = new System.Drawing.Point(956, 647);
+            this.bs_back.Location = new System.Drawing.Point(657, 647);
             this.bs_back.Margin = new System.Windows.Forms.Padding(4);
             this.bs_back.Name = "bs_back";
             this.bs_back.Size = new System.Drawing.Size(100, 28);
@@ -381,7 +381,7 @@
             "Married",
             "Divorced",
             "Widowed"});
-            this.cs_martial.Location = new System.Drawing.Point(1149, 350);
+            this.cs_martial.Location = new System.Drawing.Point(850, 350);
             this.cs_martial.Margin = new System.Windows.Forms.Padding(4);
             this.cs_martial.Name = "cs_martial";
             this.cs_martial.Size = new System.Drawing.Size(287, 28);
@@ -391,7 +391,7 @@
             // ts_emc_mobile
             // 
             this.ts_emc_mobile.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ts_emc_mobile.Location = new System.Drawing.Point(303, 615);
+            this.ts_emc_mobile.Location = new System.Drawing.Point(303, 623);
             this.ts_emc_mobile.Margin = new System.Windows.Forms.Padding(4);
             this.ts_emc_mobile.Name = "ts_emc_mobile";
             this.ts_emc_mobile.Size = new System.Drawing.Size(288, 28);
@@ -402,7 +402,8 @@
             // 
             this.ls_firstname.AutoSize = true;
             this.ls_firstname.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ls_firstname.Location = new System.Drawing.Point(715, 119);
+            this.ls_firstname.ForeColor = System.Drawing.Color.Red;
+            this.ls_firstname.Location = new System.Drawing.Point(299, 124);
             this.ls_firstname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ls_firstname.Name = "ls_firstname";
             this.ls_firstname.Size = new System.Drawing.Size(0, 20);
@@ -412,7 +413,8 @@
             // 
             this.ls_lastname.AutoSize = true;
             this.ls_lastname.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ls_lastname.Location = new System.Drawing.Point(715, 161);
+            this.ls_lastname.ForeColor = System.Drawing.Color.Red;
+            this.ls_lastname.Location = new System.Drawing.Point(857, 124);
             this.ls_lastname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ls_lastname.Name = "ls_lastname";
             this.ls_lastname.Size = new System.Drawing.Size(0, 20);
@@ -422,7 +424,8 @@
             // 
             this.ls_dateofbirth.AutoSize = true;
             this.ls_dateofbirth.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ls_dateofbirth.Location = new System.Drawing.Point(715, 202);
+            this.ls_dateofbirth.ForeColor = System.Drawing.Color.Red;
+            this.ls_dateofbirth.Location = new System.Drawing.Point(299, 197);
             this.ls_dateofbirth.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ls_dateofbirth.Name = "ls_dateofbirth";
             this.ls_dateofbirth.Size = new System.Drawing.Size(0, 20);
@@ -432,7 +435,8 @@
             // 
             this.ls_gender.AutoSize = true;
             this.ls_gender.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ls_gender.Location = new System.Drawing.Point(715, 240);
+            this.ls_gender.ForeColor = System.Drawing.Color.Red;
+            this.ls_gender.Location = new System.Drawing.Point(299, 254);
             this.ls_gender.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ls_gender.Name = "ls_gender";
             this.ls_gender.Size = new System.Drawing.Size(0, 20);
@@ -442,7 +446,8 @@
             // 
             this.ls_nationality.AutoSize = true;
             this.ls_nationality.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ls_nationality.Location = new System.Drawing.Point(715, 278);
+            this.ls_nationality.ForeColor = System.Drawing.Color.Red;
+            this.ls_nationality.Location = new System.Drawing.Point(857, 185);
             this.ls_nationality.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ls_nationality.Name = "ls_nationality";
             this.ls_nationality.Size = new System.Drawing.Size(0, 20);
@@ -452,7 +457,8 @@
             // 
             this.ls_nic.AutoSize = true;
             this.ls_nic.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ls_nic.Location = new System.Drawing.Point(715, 313);
+            this.ls_nic.ForeColor = System.Drawing.Color.Red;
+            this.ls_nic.Location = new System.Drawing.Point(857, 254);
             this.ls_nic.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ls_nic.Name = "ls_nic";
             this.ls_nic.Size = new System.Drawing.Size(0, 20);
@@ -462,7 +468,8 @@
             // 
             this.ls_gmail.AutoSize = true;
             this.ls_gmail.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ls_gmail.Location = new System.Drawing.Point(715, 347);
+            this.ls_gmail.ForeColor = System.Drawing.Color.Red;
+            this.ls_gmail.Location = new System.Drawing.Point(299, 310);
             this.ls_gmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ls_gmail.Name = "ls_gmail";
             this.ls_gmail.Size = new System.Drawing.Size(0, 20);
@@ -472,7 +479,8 @@
             // 
             this.ls_mobile.AutoSize = true;
             this.ls_mobile.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ls_mobile.Location = new System.Drawing.Point(715, 388);
+            this.ls_mobile.ForeColor = System.Drawing.Color.Red;
+            this.ls_mobile.Location = new System.Drawing.Point(857, 307);
             this.ls_mobile.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ls_mobile.Name = "ls_mobile";
             this.ls_mobile.Size = new System.Drawing.Size(0, 20);
@@ -482,7 +490,8 @@
             // 
             this.ls_address.AutoSize = true;
             this.ls_address.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ls_address.Location = new System.Drawing.Point(715, 426);
+            this.ls_address.ForeColor = System.Drawing.Color.Red;
+            this.ls_address.Location = new System.Drawing.Point(299, 386);
             this.ls_address.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ls_address.Name = "ls_address";
             this.ls_address.Size = new System.Drawing.Size(0, 20);
@@ -492,7 +501,8 @@
             // 
             this.ls_martialstatus.AutoSize = true;
             this.ls_martialstatus.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ls_martialstatus.Location = new System.Drawing.Point(715, 471);
+            this.ls_martialstatus.ForeColor = System.Drawing.Color.Red;
+            this.ls_martialstatus.Location = new System.Drawing.Point(857, 386);
             this.ls_martialstatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ls_martialstatus.Name = "ls_martialstatus";
             this.ls_martialstatus.Size = new System.Drawing.Size(0, 20);
@@ -502,7 +512,8 @@
             // 
             this.ls_emc.AutoSize = true;
             this.ls_emc.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ls_emc.Location = new System.Drawing.Point(676, 568);
+            this.ls_emc.ForeColor = System.Drawing.Color.Red;
+            this.ls_emc.Location = new System.Drawing.Point(299, 544);
             this.ls_emc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ls_emc.Name = "ls_emc";
             this.ls_emc.Size = new System.Drawing.Size(0, 20);
@@ -523,7 +534,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(57, 623);
+            this.label14.Location = new System.Drawing.Point(57, 631);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(210, 20);
@@ -533,7 +544,7 @@
             // ts_salary
             // 
             this.ts_salary.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ts_salary.Location = new System.Drawing.Point(1148, 437);
+            this.ts_salary.Location = new System.Drawing.Point(849, 437);
             this.ts_salary.Margin = new System.Windows.Forms.Padding(4);
             this.ts_salary.Name = "ts_salary";
             this.ts_salary.Size = new System.Drawing.Size(288, 28);
@@ -544,7 +555,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(970, 447);
+            this.label15.Location = new System.Drawing.Point(671, 447);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(58, 20);
@@ -554,7 +565,7 @@
             // ts_qualification
             // 
             this.ts_qualification.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ts_qualification.Location = new System.Drawing.Point(1148, 501);
+            this.ts_qualification.Location = new System.Drawing.Point(849, 501);
             this.ts_qualification.Margin = new System.Windows.Forms.Padding(4);
             this.ts_qualification.Name = "ts_qualification";
             this.ts_qualification.Size = new System.Drawing.Size(288, 28);
@@ -565,7 +576,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(970, 509);
+            this.label16.Location = new System.Drawing.Point(671, 509);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(111, 20);
@@ -576,7 +587,8 @@
             // 
             this.ls_emcmobile.AutoSize = true;
             this.ls_emcmobile.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ls_emcmobile.Location = new System.Drawing.Point(676, 623);
+            this.ls_emcmobile.ForeColor = System.Drawing.Color.Red;
+            this.ls_emcmobile.Location = new System.Drawing.Point(299, 655);
             this.ls_emcmobile.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ls_emcmobile.Name = "ls_emcmobile";
             this.ls_emcmobile.Size = new System.Drawing.Size(0, 20);
@@ -615,7 +627,8 @@
             // 
             this.ls_emcrelationship.AutoSize = true;
             this.ls_emcrelationship.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ls_emcrelationship.Location = new System.Drawing.Point(676, 601);
+            this.ls_emcrelationship.ForeColor = System.Drawing.Color.Red;
+            this.ls_emcrelationship.Location = new System.Drawing.Point(299, 600);
             this.ls_emcrelationship.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ls_emcrelationship.Name = "ls_emcrelationship";
             this.ls_emcrelationship.Size = new System.Drawing.Size(0, 20);
@@ -635,7 +648,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1620, 719);
+            this.ClientSize = new System.Drawing.Size(1215, 708);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.ls_emcrelationship);
             this.Controls.Add(this.ts_emcrelationship);
@@ -687,6 +700,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StaffRegisterForm";
             this.Text = "StaffRegister";

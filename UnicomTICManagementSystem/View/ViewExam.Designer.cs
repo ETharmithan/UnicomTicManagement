@@ -43,14 +43,14 @@
             this.dacs_view.Name = "dacs_view";
             this.dacs_view.RowHeadersWidth = 51;
             this.dacs_view.RowTemplate.Height = 24;
-            this.dacs_view.Size = new System.Drawing.Size(1466, 512);
+            this.dacs_view.Size = new System.Drawing.Size(1044, 512);
             this.dacs_view.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(721, 24);
+            this.label1.Location = new System.Drawing.Point(522, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(141, 53);
             this.label1.TabIndex = 4;
@@ -88,12 +88,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1620, 719);
+            this.ClientSize = new System.Drawing.Size(1215, 708);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dacs_view);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ViewExam";
             this.Text = "ViewExam";
             ((System.ComponentModel.ISupportInitialize)(this.dacs_view)).EndInit();

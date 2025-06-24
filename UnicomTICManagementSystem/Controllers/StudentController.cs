@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Windows.Forms;
 using UnicomTICManagementSystem.Models;
 using UnicomTICManagementSystem.Repositories;
@@ -13,7 +14,7 @@ namespace UnicomTICManagementSystem.Controllers
     internal class StudentController
     {
         // Validate PhoneNumber: must be 10 digits and numeric
-        public bool CheckPhoneNumber(Student student)
+        public bool CheckPhoneNumber(Models.Student student)
         {
             return !string.IsNullOrWhiteSpace(student.PhoneNumber) &&
                    student.PhoneNumber.All(char.IsDigit) &&
@@ -21,55 +22,55 @@ namespace UnicomTICManagementSystem.Controllers
         }
 
         // Validate FirstName is not empty
-        public bool CheckFirstName(Student student)
+        public bool CheckFirstName(Models.Student student)
         {
             return !string.IsNullOrWhiteSpace(student.FirstName);
         }
 
         // Validate LastName is not empty
-        public bool CheckLastName(Student student)
+        public bool CheckLastName(Models.Student student)
         {
             return !string.IsNullOrWhiteSpace(student.LastName);
         }
 
         // Validate NIC number is not empty
-        public bool CheckNIC(Student student)
+        public bool CheckNIC(Models.Student student)
         {
             return !string.IsNullOrWhiteSpace(student.NICno);
         }
 
         // Validate Nationality is not empty
-        public bool CheckNationality(Student student)
+        public bool CheckNationality(Models.Student student)
         {
             return !string.IsNullOrWhiteSpace(student.Nationality);
         }
 
         // Validate Gmail is not empty
-        public bool CheckGmail(Student student)
+        public bool CheckGmail(Models.Student student)
         {
             return !string.IsNullOrWhiteSpace(student.Gmail);
         }
 
         // Validate Address is not empty
-        public bool CheckAddress(Student student)
+        public bool CheckAddress(Models.Student student)
         {
             return !string.IsNullOrWhiteSpace(student.Address);
         }
 
         // Validate Father's Name is not empty
-        public bool CheckFatherName(Student student)
+        public bool CheckFatherName(Models.Student student)
         {
             return !string.IsNullOrWhiteSpace(student.FatherName);
         }
 
         // Validate Mother's Name is not empty
-        public bool CheckMotherName(Student student)
+        public bool CheckMotherName(Models.Student student)
         {
             return !string.IsNullOrWhiteSpace(student.MotherName);
         }
 
         // Validate Parents PhoneNumber: must be 10 digits and numeric
-        public bool CheckParentsPhoneNumber(Student student)
+        public bool CheckParentsPhoneNumber(Models.Student student)
         {
             return !string.IsNullOrWhiteSpace(student.ParentsPhoneNumber) &&
                    student.ParentsPhoneNumber.All(char.IsDigit) &&
@@ -77,7 +78,7 @@ namespace UnicomTICManagementSystem.Controllers
         }
 
         // Create new student record with user registration
-        public void CreateStudent(Student student)
+        public int CreateStudent(Models.Student student)
         {
             // Basic validation for required fields (you may want to add more detailed validation)
             if (!string.IsNullOrWhiteSpace(student.FirstName) &&
@@ -109,7 +110,8 @@ namespace UnicomTICManagementSystem.Controllers
                             VALUES(
                                 @firstName, @lastName, @dateOfBirth, @gender, @nationality, @nicno,
                                 @gmail, @phoneNumber, @address, @fatherName, @motherName,
-                                @parentsPhoneNumber, @usersID, @departmentsID, @coursesID);";
+                                @parentsPhoneNumber, @usersID, @departmentsID, @coursesID);
+                                SELECT last_insert_rowid();";
 
                         try
                         {
@@ -131,33 +133,36 @@ namespace UnicomTICManagementSystem.Controllers
                                 command.Parameters.AddWithValue("@usersID", userRegister.Id);
                                 command.Parameters.AddWithValue("@departmentsID", student.DepartmentsID);
                                 command.Parameters.AddWithValue("@coursesID", student.CoursesID);
-
-                                command.ExecuteNonQuery();
-
+                                object result = command.ExecuteScalar();
                                 MessageBox.Show($"Student {student.LastName} Registered Successfully.");
+                                return Convert.ToInt32(result);
+
                             }
                         }
                         catch (Exception ex)
                         {
                             MessageBox.Show($"Error saving student data:\n{ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return -1;
                         }
                     }
                 }
                 else
                 {
                     MessageBox.Show("User registration cancelled.");
+                    return -1;
                 }
             }
             else
             {
                 MessageBox.Show("Complete all student information.");
+                return -1;
             }
         }
 
         // Retrieve student by ID
-        public List<Student> GetStudent(int studentId)
+        public List<Models.Student> GetStudent(int studentId)
         {
-            List<Student> students = new List<Student>();
+            List<Models.Student> students = new List<Models.Student>();
 
             using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
             {
@@ -170,7 +175,7 @@ namespace UnicomTICManagementSystem.Controllers
 
                 foreach (DataRow row in datatable.Rows)
                 {
-                    Student student = new Student
+                    Models.Student student = new Models.Student
                     {
                         ID = Convert.ToInt32(row["ID"]),
                         FirstName = row["FirstName"].ToString(),
@@ -197,7 +202,7 @@ namespace UnicomTICManagementSystem.Controllers
         }
 
         // Update existing student record in database
-        public void UpdateStudentInDatabase(Student student)
+        public void UpdateStudentInDatabase(Models.Student student)
         {
             using (var connect = DatabaseManager.DatabaseConnect())
             {
@@ -239,7 +244,7 @@ namespace UnicomTICManagementSystem.Controllers
         }
 
         // Delete student record and associated user
-        public void DeleteStudent(Student student)
+        public void DeleteStudent(Models.Student student)
         {
             using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
             {
@@ -271,5 +276,54 @@ namespace UnicomTICManagementSystem.Controllers
                 }
             }
         }
+
+        public int RegisterStudentWithSubjects(Student student, int courseId)
+        {
+            StudentSubjectController controller = new StudentSubjectController();
+            int studentId = CreateStudent(student); // implement this method to insert and return new Student ID
+
+            if (studentId > 0)
+            {
+                SubjectController subjectCtrl = new SubjectController();
+                List<Subject> subjects = subjectCtrl.GetSubjectsByCourseId(courseId);
+
+                foreach (var subject in subjects)
+                {
+                    controller.AddStudentSubjectMapping(studentId, subject.Id);
+                }
+            }
+
+            return studentId;
+        }
+        public List<Student> GetStudentsByCourseId(int courseId)
+        {
+            var students = new List<Student>();
+
+            using (SQLiteConnection connect = DatabaseManager.DatabaseConnect())
+            {
+                string csquery = "SELECT ID, LastName FROM Students WHERE CoursesID = @CourseId";
+
+                using (SQLiteCommand command = new SQLiteCommand(csquery, connect))
+                {
+                    command.Parameters.AddWithValue("@CourseId", courseId);
+
+                    using (SQLiteDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            students.Add(new Student
+                            {
+                                ID = Convert.ToInt32(reader["ID"]),
+                                LastName = reader["LastName"].ToString()
+                            });
+                        }
+                    }
+                }
+            }
+
+            return students;
+        }
+
+
     }
 }
