@@ -26,30 +26,22 @@ namespace UnicomTICManagementSystem.View
 
         private void b_uadmin_Click(object sender, EventArgs e)
         {
-            //ViewAdmin viewAdmin = new ViewAdmin();
-            //viewAdmin.ShowDialog();
-            dashboardForm.LoadForm(new ViewAdmin());
+            dashboardForm.LoadForm(new ViewAdmin(this.dashboardForm));
         }
 
         private void b_ustaff_Click(object sender, EventArgs e)
         {
-            //ViewStaffDetails viewStaffDetails = new ViewStaffDetails();
-            //viewStaffDetails.ShowDialog();
-            dashboardForm.LoadForm(new ViewStaffDetails());
+            dashboardForm.LoadForm(new ViewStaffDetails(this.dashboardForm));
         }
 
         private void b_ulecture_Click(object sender, EventArgs e)
         {
-            //ViewLectureDetails viewlecture = new ViewLectureDetails();
-            //viewlecture.ShowDialog();
-            dashboardForm.LoadForm(new ViewStaffDetails());
+            dashboardForm.LoadForm(new ViewLectureDetails(this.dashboardForm));
         }
 
         private void b_ustudent_Click(object sender, EventArgs e)
         {
-            //ViewStudentDetails viewStudentDetails = new ViewStudentDetails();
-            //viewStudentDetails.ShowDialog();
-            dashboardForm.LoadForm(new ViewStudentDetails());
+            dashboardForm.LoadForm(new ViewStudentDetails(this.dashboardForm));
         }
     }
 }

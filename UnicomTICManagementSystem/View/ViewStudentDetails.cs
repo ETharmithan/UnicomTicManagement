@@ -16,10 +16,15 @@ namespace UnicomTICManagementSystem.View
     {
         StudentController studentController = new StudentController();
         private List<Models.Student> students = new List<Models.Student>();
-
+        DashBoardForm dashBoardForm1;
         public ViewStudentDetails()
         {
             InitializeComponent();
+        }
+        public ViewStudentDetails(DashBoardForm dashBoardForm)
+        {
+            InitializeComponent();
+            this.dashBoardForm1 = dashBoardForm;
         }
 
         private void ViewStudentDetails_Load(object sender, EventArgs e)
@@ -102,8 +107,7 @@ namespace UnicomTICManagementSystem.View
 
         private void bs_addstudent_Click(object sender, EventArgs e)
         {
-            StudentRegisterForm1 studentRegisterForm = new StudentRegisterForm1();
-            studentRegisterForm.ShowDialog();
+            dashBoardForm1.LoadForm(new StudentRegisterForm1(this.dashBoardForm1));
         }
 
         private void bs_back_Click(object sender, EventArgs e)

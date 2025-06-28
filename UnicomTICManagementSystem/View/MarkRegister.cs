@@ -19,12 +19,16 @@ namespace UnicomTICManagementSystem.View
         ExamController examController = new ExamController();
         DepartmentController departmentController = new DepartmentController();
         StudentController studentController = new StudentController();
+        DashBoardForm dashBoardForm1;
         public MarkRegister()
         {
             InitializeComponent();
         }
-
-
+        public MarkRegister(DashBoardForm dashBoard)
+        {
+            InitializeComponent();
+            this.dashBoardForm1 = dashBoard;
+        }
 
         private void tm_score_TextChanged(object sender, EventArgs e)
         {

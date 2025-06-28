@@ -41,7 +41,7 @@ namespace UnicomTICManagementSystem.View
                         if (reader.Read())
                         {
                             MessageBox.Show("Login Successfully.", "Welcome", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            DashBoardForm dashBoardForm = new DashBoardForm();
+                            DashBoardForm dashBoardForm = new DashBoardForm(reader[4].ToString());
                             dashBoardForm.Show();
                             this.Hide();
                         }
@@ -57,6 +57,11 @@ namespace UnicomTICManagementSystem.View
         private void blo_back_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void UserSigninForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

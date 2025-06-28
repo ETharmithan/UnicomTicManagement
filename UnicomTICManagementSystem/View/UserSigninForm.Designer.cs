@@ -133,6 +133,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UserSigninForm";
             this.Text = "UserSignupForm";
+            this.Load += new System.EventHandler(this.UserSigninForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

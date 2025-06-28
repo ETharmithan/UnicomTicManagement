@@ -26,7 +26,7 @@ namespace UnicomTICManagementSystem
             //Application.Run(new cs_lecturer());
             //Application.Run(new StudentRegisterForm1());
             //Application.Run(new LecturerRegisterForm1());
-            //Application.Run(new UserSigninForm());
+            Application.Run(new UserSigninForm());
             //Application.Run(new RoomRegister());
             //Application.Run(new ExamRegisterForm());
             //Application.Run(new ViewStudentDetails());
@@ -34,7 +34,7 @@ namespace UnicomTICManagementSystem
             //Application.Run(new ViewLectureDetails());
             //Application.Run(new ViewSubjects());
             //Application.Run(new MarkRegister());
-            Application.Run(new DashBoardForm());
+            //Application.Run(new DashBoardForm());
             //Application.Run(new ViewAdmin());
 
         }

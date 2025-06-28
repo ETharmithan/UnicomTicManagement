@@ -131,7 +131,9 @@ namespace UnicomTICManagementSystem.Controllers
                 !string.IsNullOrWhiteSpace(lecture.Qualification))
             {
                 // Open User Register form and get user id for lecturer
-                UserRegisterForm userRegisterForm = new UserRegisterForm();
+                User user = new User();
+                user.Role = "Lecturer";
+                UserRegisterForm userRegisterForm = new UserRegisterForm(user);
                 userRegisterForm.ShowDialog();
 
                 // Check if user registration was successful (Id > 0)

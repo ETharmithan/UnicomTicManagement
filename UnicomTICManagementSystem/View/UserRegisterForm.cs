@@ -19,15 +19,17 @@ namespace UnicomTICManagementSystem.View
         User user = new User();
         UserController userController = new UserController();
         public int Id { get; set; }
-        public UserRegisterForm()
+
+        internal UserRegisterForm()
         {
             InitializeComponent();
         }
-
-        private void UserRegisterForm_Load(object sender, EventArgs e)
+        internal UserRegisterForm(User passeduser)
         {
-
+            InitializeComponent();
+            this.user = passeduser;
         }
+
         //Save Username
         private void tu_username_TextChanged(object sender, EventArgs e)
         {
@@ -78,14 +80,18 @@ namespace UnicomTICManagementSystem.View
             lu_confirmpassword = null;
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void bu_back_Click(object sender, EventArgs e)
         {
             Close();
         }
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void UserRegisterForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

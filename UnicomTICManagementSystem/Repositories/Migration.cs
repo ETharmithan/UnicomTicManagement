@@ -18,6 +18,7 @@ namespace UnicomTICManagementSystem.Repositories
                         UserName TEXT NOT NULL,
                         Password TEXT NOT NULL,
                         Gmail TEXT NOT NULL,
+                        Role TEXT NOT NULL,
                         CreateDate TEXT DEFAULT CURRENT_TIMESTAMP,
                         UpdateDate TEXT DEFAULT CURRENT_TIMESTAMP
                     );

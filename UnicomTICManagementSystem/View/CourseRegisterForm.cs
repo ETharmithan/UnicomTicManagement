@@ -12,11 +12,16 @@ namespace UnicomTICManagementSystem.View
 
         // Controller instance to interact with the database
         CourseController courseController = new CourseController();
-
+        DashBoardForm dashBoardForm1;
         // Constructor
         public CourseRegisterForm()
         {
             InitializeComponent();
+        }
+        public CourseRegisterForm(DashBoardForm dashBoard)
+        {
+            InitializeComponent();
+            this.dashBoardForm1 = dashBoard;
         }
 
         // Loads the list of departments into the ComboBox when the form loads.
@@ -31,8 +36,7 @@ namespace UnicomTICManagementSystem.View
         // Button click handler to open the department registration form.
         private void bc_addtodepartment_Click(object sender, EventArgs e)
         {
-            DepartmentRegister departmentRegister = new DepartmentRegister();
-            departmentRegister.ShowDialog(); // Show department registration form as modal
+            dashBoardForm1.LoadForm(new DepartmentRegister(this.dashBoardForm1));
         }
 
         // Form load event to populate department ComboBox.
@@ -102,10 +106,13 @@ namespace UnicomTICManagementSystem.View
         }
 
         // Opens subject registration form (or subject assignment form).
+        private void bc_subject_Click(object sender, EventArgs e)
+        {
+            dashBoardForm1.LoadForm(new cs_lecturer(this.dashBoardForm1));
+        }
         private void bcr_addtosubject_Click(object sender, EventArgs e)
         {
-            cs_lecturer subject = new cs_lecturer(); // Possibly a form to assign subjects to course
-            subject.ShowDialog();
+
         }
     }
 }

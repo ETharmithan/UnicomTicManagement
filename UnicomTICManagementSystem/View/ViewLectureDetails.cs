@@ -17,11 +17,16 @@ namespace UnicomTICManagementSystem.View
     {
         LectureController lectureController = new LectureController();
         private List<Lecture> lecturers = new List<Lecture>();
+        DashBoardForm dashBoardForm1;
         public ViewLectureDetails()
         {
             InitializeComponent();
         }
-
+        public ViewLectureDetails(DashBoardForm dashBoardForm)
+        {
+            InitializeComponent();
+            this.dashBoardForm1 = dashBoardForm; 
+        }
         private void bl_search_Click(object sender, EventArgs e)
         {
             if (int.TryParse(tl_search.Text, out int lectureId))
@@ -62,10 +67,8 @@ namespace UnicomTICManagementSystem.View
                     Relationship = row.Cells["Relationship"].Value?.ToString(),
                     Relationnumber = row.Cells["Relationnumber"].Value?.ToString()
                 };
-
                 lectureController.UpdateLecturerInDatabase(le);
             }
-
             MessageBox.Show("Updated successfully!");
         }
 
@@ -80,7 +83,6 @@ namespace UnicomTICManagementSystem.View
                 lecturers.Remove(lecturer);
                 dl_lecture.DataSource = null;
                 dl_lecture.DataSource = lecturers;
-
                 MessageBox.Show("The selected staff has been removed.");
             }
             else
@@ -91,8 +93,7 @@ namespace UnicomTICManagementSystem.View
 
         private void bl_addregister_Click(object sender, EventArgs e)
         {
-            LecturerRegisterForm1 lecturerRegisterForm = new LecturerRegisterForm1();
-            lecturerRegisterForm.ShowDialog();
+            dashBoardForm1.LoadForm(new LecturerRegisterForm1(this.dashBoardForm1));
         }
 
         private void bl_back_Click(object sender, EventArgs e)

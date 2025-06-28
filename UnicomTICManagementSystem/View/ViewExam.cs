@@ -12,9 +12,20 @@ namespace UnicomTICManagementSystem.View
 {
     public partial class ViewExam : Form
     {
+        DashBoardForm dashBoardForm1;
         public ViewExam()
         {
             InitializeComponent();
+        }
+        public ViewExam(DashBoardForm dashBoard)
+        {
+            InitializeComponent();
+            this.dashBoardForm1 = dashBoard;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

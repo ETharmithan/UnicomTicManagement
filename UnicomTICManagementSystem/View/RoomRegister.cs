@@ -2,6 +2,8 @@
 using System.Windows.Forms;
 using UnicomTICManagementSystem.Controllers;
 using UnicomTICManagementSystem.Models;
+using System.Collections.Generic;
+
 
 namespace UnicomTICManagementSystem.View
 {
@@ -10,9 +12,15 @@ namespace UnicomTICManagementSystem.View
         private Room room = new Room();
         private RoomController roomController = new RoomController();
 
+        DashBoardForm dashboardForm1;
         public RoomRegister()
         {
             InitializeComponent();
+        }
+        public RoomRegister(DashBoardForm dashBoardForm)
+        {
+            InitializeComponent();
+            this.dashboardForm1 = dashBoardForm;
         }
 
         // === Event Handlers ===
@@ -105,13 +113,21 @@ namespace UnicomTICManagementSystem.View
         {
             Close();
         }
+        private void LoadRoomsToGrid()
+        {
+            List <Room> roomlist = roomController.GetallRooms();
+            dr_room.DataSource = roomlist;
+        }
 
         // Form Load (can be used for initializing RoomType options if needed)
         private void RoomRegister_Load(object sender, EventArgs e)
         {
             // Example if needed:
             // cr_roomtype.Items.AddRange(new string[] { "Lecture", "Lab", "Seminar" });
+            LoadRoomsToGrid();
             cr_roomtype.SelectedIndex = -1;
+            br_update.Visible = false;
+            br_delete.Visible = false;
         }
 
         // === Utilities ===
@@ -122,6 +138,11 @@ namespace UnicomTICManagementSystem.View
             tr_roomnumber.Clear();
             tl_capacity.Clear();
             room = new Room(); // reset state
+        }
+
+        private void br_update_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

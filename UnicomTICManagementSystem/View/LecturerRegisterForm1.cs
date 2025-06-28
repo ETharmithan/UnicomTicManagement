@@ -9,12 +9,16 @@ namespace UnicomTICManagementSystem.View
     {
         private Lecture lecture = new Lecture();
         private LectureController lectureController = new LectureController();
-
+        DashBoardForm dashboardForm1;
         public LecturerRegisterForm1()
         {
             InitializeComponent();
         }
-
+        public LecturerRegisterForm1(DashBoardForm dashBoardForm)
+        {
+            InitializeComponent();
+            this.dashboardForm1 = dashBoardForm;
+        }
         // Load departments into dropdown on form load
         private void LecturerRegisterForm1_Load(object sender, EventArgs e)
         {
@@ -187,12 +191,12 @@ namespace UnicomTICManagementSystem.View
 
         private void bl_adddepartment_Click(object sender, EventArgs e)
         {
-            new DepartmentRegister().ShowDialog();
+            dashboardForm1.LoadForm(new DepartmentRegister(this.dashboardForm1));
         }
 
         private void bl_addsubject_Click(object sender, EventArgs e)
         {
-            new cs_lecturer().ShowDialog();
+            dashboardForm1.LoadForm(new cs_lecturer(this.dashboardForm1));
         }
 
         // Clear form inputs
@@ -200,7 +204,6 @@ namespace UnicomTICManagementSystem.View
         {
             tl_firstname.Clear();
             tl_lastname.Clear();
-            dl_dateofbirth.Value = DateTime.Today;
             tl_nationality.Clear();
             rl_male.Checked = false;
             rl_female.Checked = false;

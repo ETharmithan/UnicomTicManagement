@@ -95,7 +95,9 @@ namespace UnicomTICManagementSystem.Controllers
                 !string.IsNullOrWhiteSpace(student.ParentsPhoneNumber))
             {
                 // Show user registration form and wait for completion
-                UserRegisterForm userRegister = new UserRegisterForm();
+                User user = new User();
+                user.Role = "Student";
+                UserRegisterForm userRegister = new UserRegisterForm(user);
                 userRegister.ShowDialog();
 
                 if (userRegister.Id > 0)

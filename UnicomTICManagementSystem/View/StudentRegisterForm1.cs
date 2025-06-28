@@ -15,11 +15,17 @@ namespace UnicomTICManagementSystem.View
 {
     public partial class StudentRegisterForm1 : Form
     {
-        Models.Student student = new Models.Student();
+        Student student = new Student();
         StudentController studentController = new StudentController();
+        DashBoardForm dashBoardForm1;
         public StudentRegisterForm1()
         {
             InitializeComponent();
+        }
+        public StudentRegisterForm1(DashBoardForm dashBoardForm)
+        {
+            InitializeComponent();
+            this.dashBoardForm1 = dashBoardForm;
         }
         private void StudentRegisterForm1_Load(object sender, EventArgs e)
         {

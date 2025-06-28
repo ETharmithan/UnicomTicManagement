@@ -11,15 +11,15 @@ namespace UnicomTICManagementSystem.View
         // Create instances of controller and model to manage admin data
         AdminController adminController = new AdminController();
         Admin admin = new Admin();
-
+        DashBoardForm dashBoardForm1;
         public AdminRegisterForm()
         {
             InitializeComponent();
         }
-
-        private void AdminRegisterForm_Load(object sender, EventArgs e)
+        public AdminRegisterForm(DashBoardForm dashBoard)
         {
-            // Optional: Initialize or load any data when the form loads
+            InitializeComponent();
+            this.dashBoardForm1 = dashBoard;
         }
 
         // Event handler for FirstName TextBox change
@@ -63,67 +63,6 @@ namespace UnicomTICManagementSystem.View
             admin.Address = ta_address.Text.Trim();
             la_address.Text = null;
         }
-
-        // Method to clear all input fields in the form
-        public void clearfield()
-        {
-            ta_firstname.Clear();
-            ta_lastname.Clear();
-            ta_nic.Clear();
-            ta_gmail.Clear();
-            ta_mobile.Clear();
-            ta_address.Clear();
-        }
-
-        // Clear button click event handler - clears all input fields
-        private void ba_clear_Click(object sender, EventArgs e)
-        {
-            clearfield();
-        }
-
-        // Submit button click event handler - validates input and attempts registration
-        private void ba_Submit_Click(object sender, EventArgs e)
-        {
-            // Set gender based on which radio button is checked
-            if (ra_male.Checked)
-            {
-                admin.Gender = ra_male.Text.Trim();
-                la_gender.Text = null;
-            }
-            else if (ra_female.Checked)
-            {
-                admin.Gender = ra_female.Text.Trim();
-                la_gender.Text = null;
-            }
-
-            // Validate phone number using custom validation method
-            if (!Validation.Validation.ValidPhoneNumber(admin.PhoneNumber))
-            {
-                MessageBox.Show("Enter a valid Phone number!");
-                return;  // Stop submission if invalid
-            }
-
-            // Validate Gmail address format
-            if (!Validation.Validation.ValidGmail(admin.Gmail))
-            {
-                MessageBox.Show("Enter a valid Gmail address!");
-                return;
-            }
-
-            // Call controller to save the admin data to the database
-            adminController.CreateAdmin(admin);
-
-            // Clear all fields after successful registration
-            clearfield();
-        }
-
-        private void AdminRegisterForm_Click(object sender, EventArgs e)
-        {
-            // Currently empty, can be used for form click events if needed
-        }
-
-        // These event handlers check if required fields are filled when user clicks on a field,
-        // and display error messages if previous required fields are missing.
 
         private void ta_lastname_Click(object sender, EventArgs e)
         {
@@ -185,10 +124,75 @@ namespace UnicomTICManagementSystem.View
                 la_mobile.Text = "Enter Your Mobile Number";
         }
 
+        // Method to clear all input fields in the form
+        public void clearfield()
+        {
+            ta_firstname.Clear();
+            ta_lastname.Clear();
+            ta_nic.Clear();
+            ta_gmail.Clear();
+            ta_mobile.Clear();
+            ta_address.Clear();
+        }
+
+
+        // Submit button click event handler - validates input and attempts registration
+        private void ba_Submit_Click(object sender, EventArgs e)
+        {
+            // Set gender based on which radio button is checked
+            if (ra_male.Checked)
+            {
+                admin.Gender = ra_male.Text.Trim();
+                la_gender.Text = null;
+            }
+            else if (ra_female.Checked)
+            {
+                admin.Gender = ra_female.Text.Trim();
+                la_gender.Text = null;
+            }
+
+            // Validate phone number using custom validation method
+            if (!Validation.Validation.ValidPhoneNumber(admin.PhoneNumber))
+            {
+                MessageBox.Show("Enter a valid Phone number!");
+                return;  // Stop submission if invalid
+            }
+
+            // Validate Gmail address format
+            if (!Validation.Validation.ValidGmail(admin.Gmail))
+            {
+                MessageBox.Show("Enter a valid Gmail address!");
+                return;
+            }
+
+            // Call controller to save the admin data to the database
+            adminController.CreateAdmin(admin);
+
+            // Clear all fields after successful registration
+            clearfield();
+        }
+
+        // Clear button click event handler - clears all input fields
+        private void ba_clear_Click(object sender, EventArgs e)
+        {
+            clearfield();
+        }
+
         // Back button click event handler - closes the form
         private void ba_back_Click(object sender, EventArgs e)
         {
             Close();
         }
+        private void AdminRegisterForm_Load(object sender, EventArgs e)
+        {
+            // Optional: Initialize or load any data when the form loads
+        }
+        private void AdminRegisterForm_Click(object sender, EventArgs e)
+        {
+            // Currently empty, can be used for form click events if needed
+        }
+
+        // These event handlers check if required fields are filled when user clicks on a field,
+        // and display error messages if previous required fields are missing.
     }
 }

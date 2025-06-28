@@ -59,7 +59,9 @@ namespace UnicomTICManagementSystem.Controllers
                 !string.IsNullOrWhiteSpace(admin.Gender))
             {
                 // Open the User Registration Form to create a linked User entry
-                UserRegisterForm userRegister = new UserRegisterForm();
+                User user = new User();
+                user.Role = "Admin";
+                UserRegisterForm userRegister = new UserRegisterForm(user);
                 userRegister.ShowDialog();
 
                 // If a valid user was created (Id > 0), proceed to create Admin
@@ -178,7 +180,7 @@ namespace UnicomTICManagementSystem.Controllers
                 string updateQuery = @"UPDATE Admins SET
                                         FirstName=@FirstName, LastName=@LastName, Gender=@Gender,
                                         NIC=@NIC, Gmail=@Gmail, PhoneNumber=@PhoneNumber,
-                                        Address=@Address,
+                                        Address=@Address
                                        WHERE Id=@Id";
 
                 using (var command = new SQLiteCommand(updateQuery, connect))

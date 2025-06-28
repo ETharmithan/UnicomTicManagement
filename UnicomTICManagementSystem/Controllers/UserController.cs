@@ -24,7 +24,7 @@ namespace UnicomTICManagementSystem.Controllers
                     string userQuery = @"INSERT INTO 
                                         Users(Username, Password, Gmail, Role) 
                                         VALUES(@username, @password,@gmail,@role);";
-                    
+
                     try
                     {
                         //Excute the Database
@@ -34,6 +34,10 @@ namespace UnicomTICManagementSystem.Controllers
                             command.Parameters.AddWithValue("@password", user.Password);
                             command.Parameters.AddWithValue("@gmail", user.Gmail);
                             command.Parameters.AddWithValue("@role", user.Role);
+                            command.ExecuteNonQuery();
+
+                            command.CommandText = "SELECT last_insert_rowid();";
+                            command.Parameters.Clear();
                             int id = Convert.ToInt32(command.ExecuteScalar());
                             MessageBox.Show("User Registered Successfully.");
                             return id;

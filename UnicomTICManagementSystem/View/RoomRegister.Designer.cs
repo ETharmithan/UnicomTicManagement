@@ -38,12 +38,12 @@
             this.br_update = new System.Windows.Forms.Button();
             this.br_delete = new System.Windows.Forms.Button();
             this.br_back = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dr_room = new System.Windows.Forms.DataGridView();
             this.cr_roomtype = new System.Windows.Forms.ComboBox();
             this.lr_roomtype = new System.Windows.Forms.Label();
             this.lr_roomnumber = new System.Windows.Forms.Label();
             this.lr_capacity = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dr_room)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -109,7 +109,7 @@
             // br_add
             // 
             this.br_add.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.br_add.Location = new System.Drawing.Point(849, 89);
+            this.br_add.Location = new System.Drawing.Point(849, 200);
             this.br_add.Name = "br_add";
             this.br_add.Size = new System.Drawing.Size(118, 32);
             this.br_add.TabIndex = 10;
@@ -126,11 +126,12 @@
             this.br_update.TabIndex = 11;
             this.br_update.Text = "Update";
             this.br_update.UseVisualStyleBackColor = true;
+            this.br_update.Click += new System.EventHandler(this.br_update_Click);
             // 
             // br_delete
             // 
             this.br_delete.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.br_delete.Location = new System.Drawing.Point(849, 199);
+            this.br_delete.Location = new System.Drawing.Point(849, 93);
             this.br_delete.Name = "br_delete";
             this.br_delete.Size = new System.Drawing.Size(118, 32);
             this.br_delete.TabIndex = 12;
@@ -148,15 +149,15 @@
             this.br_back.UseVisualStyleBackColor = true;
             this.br_back.Click += new System.EventHandler(this.br_back_Click);
             // 
-            // dataGridView1
+            // dr_room
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(69, 323);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1067, 361);
-            this.dataGridView1.TabIndex = 14;
+            this.dr_room.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dr_room.Location = new System.Drawing.Point(69, 323);
+            this.dr_room.Name = "dr_room";
+            this.dr_room.RowHeadersWidth = 51;
+            this.dr_room.RowTemplate.Height = 24;
+            this.dr_room.Size = new System.Drawing.Size(1067, 361);
+            this.dr_room.TabIndex = 14;
             // 
             // cr_roomtype
             // 
@@ -165,7 +166,7 @@
             this.cr_roomtype.Items.AddRange(new object[] {
             "Hall",
             "Lab"});
-            this.cr_roomtype.Location = new System.Drawing.Point(490, 110);
+            this.cr_roomtype.Location = new System.Drawing.Point(490, 112);
             this.cr_roomtype.Name = "cr_roomtype";
             this.cr_roomtype.Size = new System.Drawing.Size(297, 27);
             this.cr_roomtype.TabIndex = 15;
@@ -210,7 +211,7 @@
             this.Controls.Add(this.lr_roomnumber);
             this.Controls.Add(this.lr_roomtype);
             this.Controls.Add(this.cr_roomtype);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dr_room);
             this.Controls.Add(this.br_back);
             this.Controls.Add(this.br_delete);
             this.Controls.Add(this.br_update);
@@ -225,7 +226,7 @@
             this.Name = "RoomRegister";
             this.Text = "RoomRegister";
             this.Load += new System.EventHandler(this.RoomRegister_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dr_room)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -243,7 +244,7 @@
         private System.Windows.Forms.Button br_update;
         private System.Windows.Forms.Button br_delete;
         private System.Windows.Forms.Button br_back;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dr_room;
         private System.Windows.Forms.ComboBox cr_roomtype;
         private System.Windows.Forms.Label lr_roomtype;
         private System.Windows.Forms.Label lr_roomnumber;

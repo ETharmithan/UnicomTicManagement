@@ -14,37 +14,35 @@ namespace UnicomTICManagementSystem.View
 {
     public partial class CreateUser : Form
     {
+        User user = new User();
+        DashBoardForm dashboardForm1;
         public CreateUser()
         {
             InitializeComponent();
         }
-        User user = new User();
+        public CreateUser(DashBoardForm dashBoardForm)
+        {
+            InitializeComponent();
+            this.dashboardForm1 = dashBoardForm;
+        }
         private void b_admin_Click(object sender, EventArgs e)
         {
-            AdminRegisterForm adminRegisterForm = new AdminRegisterForm(); 
-            adminRegisterForm.ShowDialog();
-            user.Role = "Admin";
+            dashboardForm1.LoadForm(new AdminRegisterForm(dashboardForm1));
         }
 
         private void b_Staff_Click(object sender, EventArgs e)
         {
-            StaffRegisterForm staffRegisterForm = new StaffRegisterForm();
-            staffRegisterForm.ShowDialog();
-            user.Role = "Staff";
+            dashboardForm1.LoadForm(new StaffRegisterForm(this.dashboardForm1));
         }
 
         private void b_lecture_Click(object sender, EventArgs e)
         {
-            LecturerRegisterForm1 lecturerRegisterForm1 = new LecturerRegisterForm1();
-            lecturerRegisterForm1.ShowDialog();
-            user.Role = "Lecture";
+            dashboardForm1.LoadForm(new LecturerRegisterForm1(this.dashboardForm1));
         }
 
         private void b_student_Click(object sender, EventArgs e)
         {
-            StudentRegisterForm1 studentRegisterForm1 = new StudentRegisterForm1();
-            studentRegisterForm1.ShowDialog();
-            user.Role = "Student";
+            dashboardForm1.LoadForm(new StudentRegisterForm1(this.dashboardForm1));
         }
 
         private void b_back_Click(object sender, EventArgs e)

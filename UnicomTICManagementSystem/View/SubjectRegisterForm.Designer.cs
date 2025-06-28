@@ -49,7 +49,7 @@
             this.bs_addtocourse.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bs_addtocourse.Location = new System.Drawing.Point(748, 238);
             this.bs_addtocourse.Name = "bs_addtocourse";
-            this.bs_addtocourse.Size = new System.Drawing.Size(182, 42);
+            this.bs_addtocourse.Size = new System.Drawing.Size(228, 42);
             this.bs_addtocourse.TabIndex = 43;
             this.bs_addtocourse.Text = "Add to Course";
             this.bs_addtocourse.UseVisualStyleBackColor = true;
@@ -165,7 +165,7 @@
             this.bs_addtodepartment.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bs_addtodepartment.Location = new System.Drawing.Point(748, 171);
             this.bs_addtodepartment.Name = "bs_addtodepartment";
-            this.bs_addtodepartment.Size = new System.Drawing.Size(182, 42);
+            this.bs_addtodepartment.Size = new System.Drawing.Size(228, 42);
             this.bs_addtodepartment.TabIndex = 48;
             this.bs_addtodepartment.Text = "Add to Department";
             this.bs_addtodepartment.UseVisualStyleBackColor = true;

@@ -12,27 +12,30 @@ namespace UnicomTICManagementSystem.View
 {
     public partial class ExamMark : Form
     {
+        DashBoardForm dashboardForm1;
         public ExamMark()
         {
             InitializeComponent();
         }
-
+        
+        public ExamMark(DashBoardForm dashBoardForm)
+        {
+            InitializeComponent();
+            this.dashboardForm1 = dashBoardForm;
+        }
         private void b_examreg_Click(object sender, EventArgs e)
         {
-            ExamRegisterForm examRegisterForm = new ExamRegisterForm();
-            examRegisterForm.ShowDialog();
+            dashboardForm1.LoadForm(new ExamRegisterForm(this.dashboardForm1));
         }
 
         private void b_examview_Click(object sender, EventArgs e)
         {
-            ViewExam viewExam = new ViewExam();
-            viewExam.ShowDialog();
+            dashboardForm1.LoadForm(new ViewExam(this.dashboardForm1));
         }
 
         private void b_mark_Click(object sender, EventArgs e)
         {
-            MarkRegister markRegister = new MarkRegister();
-            markRegister.ShowDialog();
+            dashboardForm1.LoadForm(new MarkRegister());
         }
 
         private void b_back_Click(object sender, EventArgs e)

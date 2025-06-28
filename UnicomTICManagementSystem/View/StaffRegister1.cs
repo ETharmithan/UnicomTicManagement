@@ -17,9 +17,15 @@ namespace UnicomTICManagementSystem.View
     {
         Staff staff = new Staff();
         StaffController staffController = new StaffController();
+        DashBoardForm dashBoardForm;
         public StaffRegisterForm()
         {
             InitializeComponent();
+        }
+        public StaffRegisterForm(DashBoardForm dashBoard)
+        {
+            InitializeComponent();
+            this.dashBoardForm = dashBoard;
         }
 
         //Save FirstName
@@ -184,6 +190,10 @@ namespace UnicomTICManagementSystem.View
             staffController.CreateStaff(staff);
             ClearField();
         }
+        private void bs_back_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
         
         private void ts_lastname_Click(object sender, EventArgs e)
         {
@@ -195,10 +205,6 @@ namespace UnicomTICManagementSystem.View
 
         }
 
-        private void bs_back_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
 
         private void StaffRegisterForm_Load(object sender, EventArgs e)
         {

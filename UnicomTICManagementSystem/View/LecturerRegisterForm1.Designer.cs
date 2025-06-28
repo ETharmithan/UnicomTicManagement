@@ -494,7 +494,7 @@
             // bl_submit
             // 
             this.bl_submit.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bl_submit.Location = new System.Drawing.Point(1059, 641);
+            this.bl_submit.Location = new System.Drawing.Point(1059, 660);
             this.bl_submit.Margin = new System.Windows.Forms.Padding(4);
             this.bl_submit.Name = "bl_submit";
             this.bl_submit.Size = new System.Drawing.Size(103, 38);
@@ -506,7 +506,7 @@
             // bl_back
             // 
             this.bl_back.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bl_back.Location = new System.Drawing.Point(715, 641);
+            this.bl_back.Location = new System.Drawing.Point(715, 660);
             this.bl_back.Margin = new System.Windows.Forms.Padding(4);
             this.bl_back.Name = "bl_back";
             this.bl_back.Size = new System.Drawing.Size(103, 38);
@@ -518,7 +518,7 @@
             // bl_clear
             // 
             this.bl_clear.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bl_clear.Location = new System.Drawing.Point(886, 641);
+            this.bl_clear.Location = new System.Drawing.Point(886, 660);
             this.bl_clear.Margin = new System.Windows.Forms.Padding(4);
             this.bl_clear.Name = "bl_clear";
             this.bl_clear.Size = new System.Drawing.Size(103, 38);
@@ -660,7 +660,7 @@
             // 
             this.cl_Subject.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cl_Subject.FormattingEnabled = true;
-            this.cl_Subject.Location = new System.Drawing.Point(874, 546);
+            this.cl_Subject.Location = new System.Drawing.Point(874, 560);
             this.cl_Subject.Name = "cl_Subject";
             this.cl_Subject.Size = new System.Drawing.Size(288, 27);
             this.cl_Subject.TabIndex = 59;
@@ -681,7 +681,7 @@
             this.ll_Subject.AutoSize = true;
             this.ll_Subject.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ll_Subject.ForeColor = System.Drawing.Color.Red;
-            this.ll_Subject.Location = new System.Drawing.Point(893, 582);
+            this.ll_Subject.Location = new System.Drawing.Point(893, 601);
             this.ll_Subject.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ll_Subject.Name = "ll_Subject";
             this.ll_Subject.Size = new System.Drawing.Size(0, 19);
@@ -691,7 +691,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(679, 549);
+            this.label20.Location = new System.Drawing.Point(679, 563);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(63, 19);
@@ -723,9 +723,9 @@
             // bl_adddepartment
             // 
             this.bl_adddepartment.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bl_adddepartment.Location = new System.Drawing.Point(998, 509);
+            this.bl_adddepartment.Location = new System.Drawing.Point(943, 510);
             this.bl_adddepartment.Name = "bl_adddepartment";
-            this.bl_adddepartment.Size = new System.Drawing.Size(164, 27);
+            this.bl_adddepartment.Size = new System.Drawing.Size(219, 37);
             this.bl_adddepartment.TabIndex = 60;
             this.bl_adddepartment.Text = "Add to Department";
             this.bl_adddepartment.UseVisualStyleBackColor = true;
@@ -734,9 +734,9 @@
             // bl_addsubject
             // 
             this.bl_addsubject.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bl_addsubject.Location = new System.Drawing.Point(998, 579);
+            this.bl_addsubject.Location = new System.Drawing.Point(943, 596);
             this.bl_addsubject.Name = "bl_addsubject";
-            this.bl_addsubject.Size = new System.Drawing.Size(164, 27);
+            this.bl_addsubject.Size = new System.Drawing.Size(219, 37);
             this.bl_addsubject.TabIndex = 61;
             this.bl_addsubject.Text = "Add to Subject";
             this.bl_addsubject.UseVisualStyleBackColor = true;
@@ -746,7 +746,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1215, 708);
+            this.ClientSize = new System.Drawing.Size(1215, 765);
             this.Controls.Add(this.bl_addsubject);
             this.Controls.Add(this.bl_adddepartment);
             this.Controls.Add(this.cl_Subject);

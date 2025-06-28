@@ -11,10 +11,15 @@ namespace UnicomTICManagementSystem.View
         // Create exam object and controller instance
         Exam exam = new Exam();
         ExamController examController = new ExamController();
-
+        DashBoardForm dashBoardform1;
         public ExamRegisterForm()
         {
             InitializeComponent();
+        }
+        public ExamRegisterForm(DashBoardForm dashBoard)
+        {
+            InitializeComponent();
+            this.dashBoardform1 = dashBoard;
         }
 
         // Load all available courses into dropdown

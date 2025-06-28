@@ -18,10 +18,15 @@ namespace UnicomTICManagementSystem.View
     {
         Subject subject = new Subject();
         SubjectController subjectController = new SubjectController();
-        
+        DashBoardForm dashBoardForm1;
         public cs_lecturer()
         {
             InitializeComponent();
+        }
+        public cs_lecturer(DashBoardForm dashBoard)
+        {
+            InitializeComponent();
+            this.dashBoardForm1 = dashBoard;
         }
         private void LoadDepartment()
         {
@@ -55,14 +60,12 @@ namespace UnicomTICManagementSystem.View
         }
         private void bs_addtodepartment_Click(object sender, EventArgs e)
         {
-            DepartmentRegister departmentRegister = new DepartmentRegister();
-            departmentRegister.ShowDialog();
+            dashBoardForm1.LoadForm(new DepartmentRegister(this.dashBoardForm1));
         }
 
         private void bs_addtocourse_Click(object sender, EventArgs e)
         {
-            CourseRegisterForm courseRegisterform = new CourseRegisterForm();
-            courseRegisterform.ShowDialog();
+            dashBoardForm1.LoadForm(new CourseRegisterForm(this.dashBoardForm1));
         }
         public void ClearField()
         {
@@ -73,14 +76,6 @@ namespace UnicomTICManagementSystem.View
         private void bs_clear_Click(object sender, EventArgs e)
         {
             ClearField();
-        }
-        private int GetLastInsertedSubjectId()
-        {
-            using (SQLiteConnection conn = DatabaseManager.DatabaseConnect())
-            {
-                SQLiteCommand cmd = new SQLiteCommand("SELECT last_insert_rowid();", conn);
-                return Convert.ToInt32(cmd.ExecuteScalar());
-            }
         }
 
         private void bs_add_Click(object sender, EventArgs e)

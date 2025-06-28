@@ -114,7 +114,10 @@ namespace UnicomTICManagementSystem.Controllers
                     rooms.Add(new Room
                     {
                         ID = Convert.ToInt32(reader["ID"]),                // Room ID from database
-                        RoomNumber = reader["RoomNumber"].ToString()       // Room number from database
+                        RoomType = reader["RoomType"].ToString(),           // Room Type from database
+                        RoomNumber = reader["RoomNumber"].ToString(),       // Room number from database
+                        Capacity = reader["Capacity"].ToString()            // Capacity from database
+
                         // You can add other properties like RoomType, Capacity if needed
                     });
                 }

@@ -125,7 +125,9 @@ namespace UnicomTICManagementSystem.Controllers
                 !string.IsNullOrWhiteSpace(staff.Qualification))
             {
                 // Show User Registration dialog and wait for completion
-                UserRegisterForm userRegister = new UserRegisterForm();
+                User user = new User();
+                user.Role = "Staff";
+                UserRegisterForm userRegister = new UserRegisterForm(user);
                 userRegister.ShowDialog();
 
                 // If registration is cancelled or failed

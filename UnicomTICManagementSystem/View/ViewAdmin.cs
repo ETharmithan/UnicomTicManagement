@@ -16,16 +16,21 @@ namespace UnicomTICManagementSystem.View
     {
         AdminController adminController = new AdminController();
         private List<Admin> admins =new List<Admin>();
+        DashBoardForm dashBoardForm1;
         
         public ViewAdmin()
         {
             InitializeComponent();
         }
+        public ViewAdmin(DashBoardForm dashBoard)
+        {
+            InitializeComponent();
+            this.dashBoardForm1 = dashBoard;
+        }
 
         private void bl_addadmin_Click(object sender, EventArgs e)
         {
-            AdminRegisterForm adminRegisterForm = new AdminRegisterForm();
-            adminRegisterForm.ShowDialog();
+            dashBoardForm1.LoadForm(new AdminRegisterForm(this.dashBoardForm1));
         }
 
         private void ba_search_Click(object sender, EventArgs e)
@@ -63,25 +68,33 @@ namespace UnicomTICManagementSystem.View
 
                 adminController.UpdateAdminInDatabase(ad);
             }
+            MessageBox.Show("Updated successfully!");
         }
 
         private void ba_delete_Click(object sender, EventArgs e)
         {
-            int selectedId = Convert.ToInt32(da_admin.SelectedRows[0].Cells["ID"].Value);
-
-            var admin = admins.FirstOrDefault(le => le.Id == selectedId);
-            if (admin != null)
+            if (da_admin.SelectedRows.Count > 0)
             {
-                adminController.DeleteAdmin(admin);
-                admins.Remove(admin);
-                da_admin.DataSource = null;
-                da_admin.DataSource = admins;
+                int selectedId = Convert.ToInt32(da_admin.SelectedRows[0].Cells["ID"].Value);
 
-                MessageBox.Show("The selected admin has been removed.");
+                var admin = admins.FirstOrDefault(le => le.Id == selectedId);
+                if (admin != null)
+                {
+                    adminController.DeleteAdmin(admin);
+                    admins.Remove(admin);
+                    da_admin.DataSource = null;
+                    da_admin.DataSource = admins;
+
+                    MessageBox.Show("The selected admin has been removed.");
+                }
+                else
+                {
+                    MessageBox.Show("Selected admin not found in the list.");
+                }
             }
             else
             {
-                MessageBox.Show("Please select a admin first.");
+                MessageBox.Show("Please select an admin first.");
             }
         }
 

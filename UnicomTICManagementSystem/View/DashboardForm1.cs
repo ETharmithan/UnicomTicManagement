@@ -16,5 +16,9 @@ namespace UnicomTICManagementSystem.View
         {
             InitializeComponent();
         }
+        public DashboardForm1(DashBoardForm dashBoardForm)
+        {
+            InitializeComponent();
+        }
     }
 }

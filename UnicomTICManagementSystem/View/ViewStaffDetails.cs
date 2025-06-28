@@ -17,9 +17,15 @@ namespace UnicomTICManagementSystem.View
     {
         StaffController staffController = new StaffController();
         private List<Staff> staffs = new List<Staff>();
+        DashBoardForm dashBoardForm1;
         public ViewStaffDetails()
         {
             InitializeComponent();
+        }
+        public ViewStaffDetails(DashBoardForm dashBoard)
+        {
+            InitializeComponent();
+            this.dashBoardForm1 = dashBoard;
         }
 
         private void bsta_search_Click(object sender, EventArgs e)
@@ -92,8 +98,7 @@ namespace UnicomTICManagementSystem.View
 
         private void bsta_addstaff_Click(object sender, EventArgs e)
         {
-            StaffRegisterForm staffRegisterForm = new StaffRegisterForm();
-            staffRegisterForm.ShowDialog();
+            dashBoardForm1.LoadForm(new StaffRegisterForm(this.dashBoardForm1));
         }
 
         private void bsta_back_Click(object sender, EventArgs e)

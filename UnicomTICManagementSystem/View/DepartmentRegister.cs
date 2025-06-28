@@ -12,11 +12,16 @@ namespace UnicomTICManagementSystem.View
 
         // Controller to manage department-related database operations
         DepartmentController departmentController = new DepartmentController();
-
+        DashBoardForm dashBoardForm1;
         // Constructor
         public DepartmentRegister()
         {
             InitializeComponent();
+        }
+        public DepartmentRegister(DashBoardForm dashBoard)
+        {
+            InitializeComponent();
+            this.dashBoardForm1 = dashBoard;
         }
 
         // Triggered when the department name textbox content changes.
@@ -73,8 +78,7 @@ namespace UnicomTICManagementSystem.View
         // Opens the Course Registration Form.
         private void bd_addtocourse_Click(object sender, EventArgs e)
         {
-            CourseRegisterForm courseRegisterForm = new CourseRegisterForm();
-            courseRegisterForm.ShowDialog(); // Open form as modal dialog
+            dashBoardForm1.LoadForm(new CourseRegisterForm(this.dashBoardForm1));
         }
 
         // Closes the current form (Back button).

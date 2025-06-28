@@ -25,44 +25,79 @@ namespace UnicomTICManagementSystem.View
             this.panel_Main.Controls.Add(form);
             form.Show();
         }
-        public DashBoardForm()
+        private string role;
+        public DashBoardForm(string role)
         {
             InitializeComponent();
-            LoadForm(new DashboardForm1());
+            //LoadForm(new DashboardForm1(this));
+            this.role = role;
+
+        }
+        private void DashBoard_Load(object sender, EventArgs e)
+        {
+            if(role == "Student") 
+            {
+                bd_cUser.Visible = false;
+                b_education.Visible = false;
+                b_exammark.Visible = false;
+                button1.Visible = false;
+                b_updateusers.Visible = false;
+                label1.Text = "Student";
+            }
+            else if(role == "Lecturer")
+            {
+                bd_cUser.Visible = false;
+                b_education.Visible = false;
+                b_exammark.Visible = false;
+                button1.Visible = false;
+                b_updateusers.Visible=false;
+                label1.Text = "Lecturer";
+            }
+            else if (role == "Staff")
+            {
+                bd_cUser.Visible = false;
+                b_education.Visible = false;
+                b_exammark.Visible = false;
+                button1.Visible = false;
+                b_updateusers.Visible = false;
+                label1.Text = "Staff";
+            }
+            else if(role == "Admin")
+            {
+                label1.Text = "Admin";
+            }
         }
 
         private void bd_cUser_Click(object sender, EventArgs e)
         {
-            //    CreateUser createuser = new CreateUser();
-            //    createuser.ShowDialog();
-            LoadForm(new CreateUser());
+            LoadForm(new CreateUser(this));
         }
         private void b_education_Click(object sender, EventArgs e)
         {
-            //CreateEducation createEducation = new CreateEducation();
-            //createEducation.ShowDialog();
-            LoadForm(new CreateEducation());
+            LoadForm(new CreateEducation(this));
         }
 
         private void b_exammark_Click(object sender, EventArgs e)
         {
-            //ExamMark examMark = new ExamMark();
-            //examMark.ShowDialog();
-            LoadForm(new ExamMark());
+            LoadForm(new ExamMark(this));
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            //RoomRegister roomRegister = new RoomRegister();
-            //roomRegister.ShowDialog();
-            LoadForm(new RoomRegister());
+            LoadForm(new RoomRegister(this));
         }
         private void b_updateusers_Click(object sender, EventArgs e)
         {
             LoadForm(new UpdateUsers(this));
         }
-        private void DashBoard_Load(object sender, EventArgs e)
+        private void b_logout_Click_1(object sender, EventArgs e)
         {
-
+            Close();
+            UserSigninForm userSigninForm = new UserSigninForm();
+            userSigninForm.ShowDialog();
+        }
+        private void b_logout_Click(object sender, EventArgs e)
+        {
+            
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -70,5 +105,14 @@ namespace UnicomTICManagementSystem.View
 
         }
 
+        private void panel_Main_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

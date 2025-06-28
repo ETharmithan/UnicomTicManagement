@@ -41,7 +41,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.cc_department = new System.Windows.Forms.ComboBox();
             this.bc_addtodepartment = new System.Windows.Forms.Button();
-            this.bcr_addtosubject = new System.Windows.Forms.Button();
+            this.bc_subject = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -181,23 +181,23 @@
             this.bc_addtodepartment.UseVisualStyleBackColor = true;
             this.bc_addtodepartment.Click += new System.EventHandler(this.bc_addtodepartment_Click);
             // 
-            // bcr_addtosubject
+            // bc_subject
             // 
-            this.bcr_addtosubject.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bcr_addtosubject.Location = new System.Drawing.Point(1307, 629);
-            this.bcr_addtosubject.Name = "bcr_addtosubject";
-            this.bcr_addtosubject.Size = new System.Drawing.Size(237, 38);
-            this.bcr_addtosubject.TabIndex = 19;
-            this.bcr_addtosubject.Text = "Add to Subject";
-            this.bcr_addtosubject.UseVisualStyleBackColor = true;
-            this.bcr_addtosubject.Click += new System.EventHandler(this.bcr_addtosubject_Click);
+            this.bc_subject.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bc_subject.Location = new System.Drawing.Point(919, 605);
+            this.bc_subject.Name = "bc_subject";
+            this.bc_subject.Size = new System.Drawing.Size(237, 38);
+            this.bc_subject.TabIndex = 20;
+            this.bc_subject.Text = "Add to Subject";
+            this.bc_subject.UseVisualStyleBackColor = true;
+            this.bc_subject.Click += new System.EventHandler(this.bc_subject_Click);
             // 
             // CourseRegisterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1215, 708);
-            this.Controls.Add(this.bcr_addtosubject);
+            this.Controls.Add(this.bc_subject);
             this.Controls.Add(this.bc_addtodepartment);
             this.Controls.Add(this.cc_department);
             this.Controls.Add(this.label6);
@@ -236,6 +236,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox cc_department;
         private System.Windows.Forms.Button bc_addtodepartment;
-        private System.Windows.Forms.Button bcr_addtosubject;
+        private System.Windows.Forms.Button bc_subject;
     }
 }
